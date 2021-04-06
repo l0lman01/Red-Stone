@@ -1,10 +1,7 @@
-
-
-
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="UTF-8">
+        <?php require_once "../composant/head.php" ?>
         <title>Red Stone</title>
     </head>
     <body>
