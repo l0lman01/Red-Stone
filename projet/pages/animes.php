@@ -5,9 +5,9 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>Red Stone-Abonnement</title>
+        <title>Red Stone-Animes</title>
     </head>
     <body>
-    
+        
     </body>
 </html>

@@ -5,9 +5,9 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>Red Stone</title>
+        <title>Red Stone-Produits</title>
     </head>
     <body>
-    
+        
     </body>
 </html>
