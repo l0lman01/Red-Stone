@@ -1,7 +1,7 @@
 # Red-Stone
 
 ## Lien utile :
-- Partie Animé : 
-    - API Uptobox : https://www.npmjs.com/package/uptobox
 
+- Fichier GBS3:
+    - https://mega.nz/folder/Wh5mUYxI#1h692nJEsSz9xiqpl06KjA
 
