@@ -591,13 +591,30 @@
 											"height": 13,
 											"text": "+image(varchar)",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF4p+DslIF/VRk=",
+											"_parent": {
+												"$ref": "AAAAAAF4p6jYG5VSXPY="
+											},
+											"model": {
+												"$ref": "AAAAAAF4p+DsjoF8SOU="
+											},
+											"font": "Arial;13;0",
+											"left": 229,
+											"top": 649,
+											"width": 135,
+											"height": 13,
+											"text": "+saison(int)",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 224,
 									"top": 539,
 									"width": 145,
-									"height": 113
+									"height": 128
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -875,13 +892,30 @@
 											"height": 13,
 											"text": "+image(varchar)",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF4p+CvBoCzBNI=",
+											"_parent": {
+												"$ref": "AAAAAAF4p6wtgpYVj0U="
+											},
+											"model": {
+												"$ref": "AAAAAAF4p+Cu/ICwYxs="
+											},
+											"font": "Arial;13;0",
+											"left": 237,
+											"top": 436,
+											"width": 150,
+											"height": 13,
+											"text": "+nb_saison(int)",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 232,
 									"top": 371,
 									"width": 160,
-									"height": 68
+									"height": 83
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2830,7 +2864,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF4p6Jjh5TawKA="
 							},
-							"name": "id"
+							"name": "id",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2876,7 +2911,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF4p6SIHJUt2Yg="
 									},
-									"name": "varchar"
+									"name": "varchar",
+									"type": ""
 								}
 							]
 						},
@@ -3036,7 +3072,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF4p6u/ZpX83vA="
 									},
-									"name": "varchar"
+									"name": "varchar",
+									"type": ""
 								}
 							]
 						},
@@ -3131,6 +3168,25 @@
 										"$ref": "AAAAAAF4p7RsMJvzO9U="
 									},
 									"name": "varchar",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF4p+DsjoF8SOU=",
+							"_parent": {
+								"$ref": "AAAAAAF4p6jYGpVJh8M="
+							},
+							"name": "saison",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF4p+EuSoHOhSo=",
+									"_parent": {
+										"$ref": "AAAAAAF4p+DsjoF8SOU="
+									},
+									"name": "int",
 									"type": ""
 								}
 							]
@@ -3268,6 +3324,25 @@
 									"type": ""
 								}
 							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF4p+Cu/ICwYxs=",
+							"_parent": {
+								"$ref": "AAAAAAF4p6wtgpYMH/s="
+							},
+							"name": "nb_saison",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF4p+DZHIEC9A4=",
+									"_parent": {
+										"$ref": "AAAAAAF4p+Cu/ICwYxs="
+									},
+									"name": "int",
+									"type": ""
+								}
+							]
 						}
 					]
 				},
@@ -3350,7 +3425,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF4p7OrDptToV0="
 									},
-									"name": "int"
+									"name": "int",
+									"type": ""
 								}
 							]
 						}
