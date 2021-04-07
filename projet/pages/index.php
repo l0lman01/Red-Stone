@@ -7,7 +7,6 @@
     <body>
     <?php require "../composant/Menu.php" ?>
 
-
-    
     </body>
+    
 </html>
