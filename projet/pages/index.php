@@ -5,12 +5,9 @@
         <title>Red Stone</title>
     </head>
     <body>
-        <img alt='redstone' src='../img/logo_redstone.png'>
-    <div class="row">
-      <div class="col s1">1</div>
-      <div class="col s1">2</div>
-      <div class="col s1">3</div>
+    <?php require "../composant/Menu.php" ?>
 
-    </div>
+
+    
     </body>
 </html>
