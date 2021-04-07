@@ -200,6 +200,7 @@
 											"model": {
 												"$ref": "AAAAAAF4p6SIHJUt2Yg="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 245,
 											"top": 167,
@@ -219,7 +220,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 245,
-											"top": 182,
+											"top": 167,
 											"width": 143,
 											"height": 13,
 											"text": "+email(varchar)",
@@ -236,7 +237,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 245,
-											"top": 197,
+											"top": 182,
 											"width": 143,
 											"height": 13,
 											"text": "+password(varchar)",
@@ -253,7 +254,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 245,
-											"top": 212,
+											"top": 197,
 											"width": 143,
 											"height": 13,
 											"text": "+statut(varchar)",
@@ -282,7 +283,7 @@
 									"left": 240,
 									"top": 147,
 									"width": 153,
-									"height": 83
+									"height": 68
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
