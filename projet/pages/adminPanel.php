@@ -7,9 +7,11 @@
     <body>
         <?php 
             require "../composant/Menu.php";
-            $user = $_SESSION['user'];
-            if(isset($user)){
+            if(isset($_SESSION['user'])){
+                $user = $_SESSION['user'];
                 if($user['statut'] == 'admin'){
+
+                    echo 'sa marche';
                     
                 }else{
                     ?>
