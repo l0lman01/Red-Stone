@@ -58,6 +58,9 @@ nav{
   
 }
 
+i.material-icons{
+  display: unset !important;
+}
 
 a i{
   color: #6A0000;
