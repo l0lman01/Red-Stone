@@ -1,62 +1,13 @@
 body {
-  display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: grey;
 }
 
 main {
   flex: 1 0 auto;
 }
 
-.brand-logo img{
-    max-height: 45px;
-    margin: 10px;
-}
-
-.icone{
-  font-size: 50px
-}
-
-.equilibre{
-  text-align: justify;
-}
-
-.intervenant{
-  min-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.carousel .ml img{
-  height: 400px;
-}
-.carousel .s img{
-  height: 250px;
-}
-
-.contact{
-  padding-top: 20px;
-  max-width: 90%;
-}
-
-.commentaire{
-  padding-bottom:40px;
-  color:#ffab40
-}
-
-.downloads{
-  background-color: black;
-  color: white;
-  border: solid;
-  border-color: red;
-  padding-bottom: 20px
-}
-
-nav{
-  background-color: white;
-  height: 85px;
-  
-}
 
 i.material-icons{
   display: unset !important;
@@ -81,42 +32,7 @@ div.input-field{
   background-color: #6A0000;
 }
 
-.l {
-  margin-left: auto;
-  margin-right: auto;
+.adminTab{
+  padding-top: 50px;
   width: 80%;
 }
-
-img.i {
-  max-width: 600px;
-  height: auto;
-}
-
-div.p {
-  display: flex;
-}
-
-div.p img{
-  padding: 10px;
-}
-
-img.j {
-  max-width: 350px;
-  height: auto;
-}
-
-img.s{
-  max-height: 900px;
-  width: auto;
-}
-
-
-img.ss{
-  max-width: 800px;
-  height: auto;
-}
-
-img.k {
-  max-width: 400px;
-  height: auto;
-  }

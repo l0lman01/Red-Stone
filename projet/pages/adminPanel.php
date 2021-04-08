@@ -10,9 +10,60 @@
             if(isset($_SESSION['user'])){
                 $user = $_SESSION['user'];
                 if($user['statut'] == 'admin'){
+                ?>
+                
+              <div class="row adminTab">
+                <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3"><a class="active" href="#anime">anime</a></li>
+                    <li class="tab col s3"><a href="#form">Ajout anime</a></li>
+                    <li class="tab col s3"><a href="#test3">Disabled Tab</a></li>
+                    <li class="tab col s3"><a href="#test4">Test 4</a></li>
+                </ul>
+                </div>
+                <div id="anime" class="col s12 grey lighten-2">
+                    <div class='row'>
+                        <h4 class='col s10'>Liste des animes :</h4>
+                        <a href="" class='col s2'>ajouter un anime</a>
+                    </div>
 
-                    echo 'sa marche';
-                    
+                </div>
+
+                <div id="form" class="col s12 grey lighten-2">
+                    <br />
+                    <form action="" method='post'>
+                        <div>
+                            <label>nom de l anime</label>
+                            <input type="text" name='name'>
+                        </div>
+                        <div>
+                            <label>image</label>
+                            <input type="file" name="image">
+                        </div>
+                        <div>
+                            <label>nb de saison</label>
+                            <input type="number" name="saison">
+                        </div>
+                        <input type="submit">
+                    </form>
+                    <br />
+                </div>
+
+
+
+                <div id="test3" class="col s12">
+                <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="../img/bts.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img src="../img/knb.jpg"></a>
+                </div>
+
+                </div>
+                <div id="test4" class="col s12">Test 4</div>
+            </div>
+
+
+  
+                <?php
                 }else{
                     ?>
                     <h2>Vous n'avez pas accès à cette page</h2>
@@ -23,6 +74,9 @@
                 <h2>Connecter vous pour accédé a cette page</h2>
                 <?php
             }
+            require '../composant/footer.php'
         ?>
+
+            </script>
     </body>
 </html>
