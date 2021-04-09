@@ -23,7 +23,9 @@
                 </div>
                 <div id="anime" class="col s12 grey lighten-2">
                     <div class='row'>
-                        <h4 class='col s10'>Liste des animes :</h4>
+                        <div class='col s10'>
+                            <?php require '../composant/listAnime.php'?>
+                        </div>
                         <a href="" class='col s2'>ajouter un anime</a>
                     </div>
 
@@ -40,10 +42,7 @@
                             <label>image</label>
                             <input type="file" name="image">
                         </div>
-                        <div>
-                            <label>nb de saison</label>
-                            <input type="number" name="saison">
-                        </div>
+                        <br />
                         <input type="submit">
                     </form>
                     <br />
