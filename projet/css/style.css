@@ -53,3 +53,10 @@ div.input-field{
   width: 80%;
 }
 
+.left {
+  left: auto;
+}
+
+.right {
+  right: auto;
+}
