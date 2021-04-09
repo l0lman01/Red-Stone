@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <?php require "../composant/head.php" ?>
+        <?php 
+            require "../composant/head.php" ;
+        ?>
         <title>Red Stone | Admin</title>
     </head>
     <body>
@@ -16,24 +18,21 @@
                 <div class="col s12">
                 <ul class="tabs">
                     <li class="tab col s3"><a class="active" href="#anime">anime</a></li>
-                    <li class="tab col s3"><a href="#form">Ajout anime</a></li>
+                    <li class="tab col s3"><a href="#form">Ajout anime (temporaire)</a></li>
                     <li class="tab col s3"><a href="#test3">Disabled Tab</a></li>
                     <li class="tab col s3"><a href="#test4">Test 4</a></li>
                 </ul>
                 </div>
                 <div id="anime" class="col s12 grey lighten-2">
                     <div class='row'>
-                        <div class='col s10'>
-                            <?php require '../composant/listAnime.php'?>
-                        </div>
-                        <a href="" class='col s2'>ajouter un anime</a>
+                        <?php require '../composant/listAnime.php'?>
                     </div>
 
                 </div>
 
                 <div id="form" class="col s12 grey lighten-2">
                     <br />
-                    <form action="" method='post'>
+                    <form action="../actions/newAnime.php" method='post'>
                         <div>
                             <label>nom de l anime</label>
                             <input type="text" name='name'>
