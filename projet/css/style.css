@@ -12,6 +12,10 @@ nav{
   height: 95px;
 }
 
+nav .input-field{
+  height: unset;
+}
+
 
 input#search{
   width: 500px;
