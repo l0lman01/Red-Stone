@@ -8,17 +8,28 @@ main {
   flex: 1 0 auto;
 }
 
+nav{
+  height: 95px;
+}
+
+
+input#search{
+  width: 500px;
+  height: 48px;
+  border-bottom: none;
+}
 
 i.material-icons{
   display: unset !important;
+  font-size: 60px !important;
 }
 
 a i{
   color: #6A0000;
-
 }
 
 a.button{
+  border-radius: 25px;
   margin-left: 8px;
   margin-right: 8px;
   margin-top: 8px;
@@ -26,6 +37,7 @@ a.button{
 }
 
 div.input-field{
+  border-radius: 25px;
   margin-left: 8px;
   margin-right: 8px;
   margin-top: 8px;
@@ -36,3 +48,4 @@ div.input-field{
   padding-top: 50px;
   width: 80%;
 }
+
