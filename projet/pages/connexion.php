@@ -3,20 +3,23 @@
         <?php require "../composant/head.php" ?>
         <title>Red Stone | connexion</title>
     </head>
-    <body>
+    <body class='multianimebg'>
         <?php require "../composant/Menu.php" ?>
-
-        <form action="../actions/login.php" method="post">
-            <div>
-                <label for="">email</label>
-                <input type="email" name="email">
-            </div>
-            <div>
-                <label for="">password</label>
-                <input type="password" name="password">
-            </div>
-            <input type="submit">
-        </form>
+<br><br><br>
+    <div class="row center white">
+      <form class="center">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Telephone</label>
+        </div>
+      </div>
+      </form>
+    </div>
 
     </body>
 </html>
