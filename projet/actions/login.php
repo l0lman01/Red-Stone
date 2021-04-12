@@ -12,7 +12,7 @@
     if(empty($user)){//vérifie si le resultat est vide
         //non connecté
         $error = TRUE;
-        header('Location: ../pages/connexion.php');
+        header('Location: ../public/connexion.php');
     }else{
         if(password_verify($_POST['password'], $user['password'])){ //vérifie si le c'est le même mot de passe
             $_SESSION['user'] = $user; //on enregistre que l'utilisateur est connecté
@@ -22,5 +22,5 @@
         }
     }
 
-    header('Location: ../pages/index.php');
+    header('Location: ../public/index.php');
 ?>
