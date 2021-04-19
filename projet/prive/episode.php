@@ -10,14 +10,16 @@
             require "../actions/searchAllEpisode.php";
             require "../actions/searchAnime.php";
         ?>
-        <h1><?php echo $anime['name'] ?></h1>
-
-        <?php require '../composant/listEpisode.php' ?>
 
         
+        <h1><?php echo $anime['name'] ?></h1>
+        <h3>Episode <?php echo $episodes[0]['nb_episode'] ?></h1>
 
-        <hr />
-
-
+        <div>
+            <?php echo $episodes[0]['link'] ?>
+        </div>
+        <div>
+            <a href="../actions/deleteEpisode.php?id=<?php echo $episodes[0]['id'] ?>">Supprimer</a>
+        </div>
     </body>
 </html>
