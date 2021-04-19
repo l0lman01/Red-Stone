@@ -33,6 +33,7 @@
         <h2>MUSIQUE</h2>
     </section>
 
+
     <?php require '../composant/footer.php' ?>
     </body>  
 </html>
