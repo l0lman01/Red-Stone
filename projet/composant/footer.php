@@ -5,6 +5,8 @@
         $(document).ready(function(){
             $('.carousel').carousel();
             $('.tabs').tabs();
+            $('.sidenav').sidenav();
+            $('.button-collapse').sideNav();
             $('.carousel.carousel-slider').carousel({
             // fullWidth: true,
             indicators: true
