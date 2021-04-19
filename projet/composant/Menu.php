@@ -37,5 +37,3 @@
   <li><div class="divider"></div></li>
   <li><a href="../prive/profil.php">Profile</a></li>
 </ul>
-
- 
