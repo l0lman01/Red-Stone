@@ -14,7 +14,7 @@ nav{
 }
 
 nav a.sidenav-trigger {
-  display: block;
+   display: block ; 
 }
 
 nav .input-field{

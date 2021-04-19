@@ -4,6 +4,7 @@
     <script type='text/javascript'>
         $(document).ready(function(){
             $('.carousel').carousel();
+            $('.modal').modal();
             $('.tabs').tabs();
             $('.sidenav').sidenav();
             $('.button-collapse').sideNav();
