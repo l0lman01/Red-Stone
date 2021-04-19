@@ -32,7 +32,7 @@
 
                 <div id="form" class="col s12 grey lighten-2">
                     <br />
-                    <form action="../actions/newAnime.php" method='post'>
+                    <form action="../actions/newAnime.php" method='post'enctype="multipart/form-data">
                         <div>
                             <label>nom de l anime</label>
                             <input type="text" name='name'>

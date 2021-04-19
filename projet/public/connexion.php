@@ -25,7 +25,8 @@
         <h5>Connectez vous avec</h5>
         <div>
         <img src="../img/logo-fb.png" alt="" with=150px height=150px>
-        <img src="../img/logo-google.png" alt="" with=150px height=150px> 
+        <img src="../img/logo-google.png" alt="" with=150px height=150px>
+        <h6>pas encore inscrits ?</h6><a href="">Inscrivez-vous maintenant</a> 
         </div>
         </div>
         </div>
