@@ -12,6 +12,10 @@ nav{
   height: 95px;
 }
 
+nav a.sidenav-trigger {
+  display: block;
+}
+
 nav .input-field{
   height: unset;
 }
@@ -59,4 +63,8 @@ div.input-field{
 
 .right {
   right: auto;
+}
+
+.multianimebg{
+  background-image: url("../img/Multi-bg.png");
 }
