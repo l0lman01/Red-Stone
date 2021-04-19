@@ -24,11 +24,13 @@
     <section>
         <h2>ANIMES</h2>
     </section>
+    <div class="divider"></div>
 
     <section>
         <h2>MANGA</h2>
     </section>
-
+    <div class="divider"></div>
+    
     <section>
         <h2>MUSIQUE</h2>
     </section>

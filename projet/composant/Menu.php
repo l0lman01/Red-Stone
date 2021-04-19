@@ -29,11 +29,11 @@
 
 
 <ul id="slide-out" class="sidenav">
-  <li><a href="">Accueil</a></li>
+  <li><a href="../public/index.php">Accueil</a></li>
   <li><div class="divider"></div></li>
-  <li><a href="">Animes</a></li>
+  <li><a href="../public/animes.php">Animes</a></li>
   <li><div class="divider"></div></li>
-  <li><a href="">Manga</a></li>
+  <li><a href="../public/manga.php">Manga</a></li>
   <li><div class="divider"></div></li>
   <li><a href="../prive/profil.php">Profile</a></li>
 </ul>

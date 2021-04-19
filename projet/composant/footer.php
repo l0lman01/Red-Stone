@@ -9,7 +9,8 @@
             $('.button-collapse').sideNav();
             $('.carousel.carousel-slider').carousel({
             // fullWidth: true,
-            indicators: true
+            indicators: true,
+            noWrap: true
         });})
     </script>
 </footer>
