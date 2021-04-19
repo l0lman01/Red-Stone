@@ -11,13 +11,13 @@
             require "../actions/searchAnime.php";
         ?>
         <h1><?php echo $anime['name'] ?></h1>
-
+        <a href="../actions/deleteAnime.php?id=<?php echo $anime['id'] ?>">Supprimer l'anime completement</a>
+        <br>
         <?php require '../composant/listEpisode.php' ?>
 
         
 
         <hr />
-        <a href="">Ajoutez une saison</a>
 
         <form action="../actions/newEpisode.php" method="post">
             <input type="hidden" name="anime_id" value='<?php echo $anime_id ?>'>
