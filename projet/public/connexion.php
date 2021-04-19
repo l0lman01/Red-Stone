@@ -11,16 +11,22 @@
         <div class="center row">
         <div class="col s3"></div> <div class= "col s6 white">
         <h2 class="white">Login</h2>      
-        <div class="input-field ">
+        <div>
         <h6 class="left">Nom d'utilisateur</h6>
         <input id="icon_telephone" placeholder="Ecrivez votre Nom..." type="tel" class="validate">
         </div>
-        <div class="input-field">
+        <div>
         <h6 class="left">Mot de passe</h6>
         <input id="icon_telephone" placeholder="Ecrivez votre mot de passe..." type="tel" class="validate">
         <a href="" class="right">Mot de passe oublier ?</a>
         <br><br><br>
         <a class="waves-effect waves-light btn-small red accent-4 ">Login</a>
+        <br><br>
+        <h5>Connectez vous avec</h5>
+        <div>
+        <img src="../img/logo-fb.png" alt="" with=150px height=150px>
+        <img src="../img/logo-google.png" alt="" with=150px height=150px> 
+        </div>
         </div>
         </div>
         <div class="col s3"></div>

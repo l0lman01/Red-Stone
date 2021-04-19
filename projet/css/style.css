@@ -60,3 +60,7 @@ div.input-field{
 .right {
   right: auto;
 }
+
+.multianimebg{
+  background-image: url("../img/Multi-bg.png");
+}
