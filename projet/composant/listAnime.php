@@ -14,7 +14,7 @@
         foreach($animes as $anim){
             ?>
             
-            <a href='Anime.php?name=<?php echo $anim['name'] ?>' class='col s4 center'>
+            <a href='anime.php?id=<?php echo $anim['id'] ?>' class='col s4 center'>
                 <img src="../img/upload/<?php echo $anim['image'] ?>" style='max-width:150px'>
                 <h6><?php echo $anim['name'] ?></h6>
             </a>

@@ -14,5 +14,5 @@
     $pre = $pdo->prepare($sql);
     $pre->execute($dataBinded);
 
-    header('Location: ../admin/panel.php');
+    header('Location: ../prive/panel.php');
 ?>

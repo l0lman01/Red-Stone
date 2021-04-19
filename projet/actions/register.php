@@ -25,10 +25,10 @@
             $pre = $pdo->prepare($sql);
             $pre->execute($dataBinded);
 
-            header('Location: ../pages/index.php');
+            header('Location: ../public/index.php');
         }else{
         }
     }else{
-        header('Location: ../pages/inscription.php');
+        header('Location: ../public/inscription.php');
     }
 ?>

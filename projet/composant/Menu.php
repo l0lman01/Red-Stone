@@ -8,8 +8,8 @@
                 <label class="label-icon" for="search"><i class="material-icons">search</i></label>
                 <i class="material-icons">close</i>
             </div></li>
-            <li><a href="inscription.php" class="button">S'inscrire</a></li>
-            <li><a href="connexion.php" class="button">Se Connecter</a></li>
+            <li><a href="../public/inscription.php" class="button">S'inscrire</a></li>
+            <li><a href="../public/connexion.php" class="button">Se Connecter</a></li>
         </ul>
     </div>
 </nav>
