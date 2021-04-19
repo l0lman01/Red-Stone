@@ -19,7 +19,7 @@
         <hr />
         <a href="">Ajoutez une saison</a>
 
-        <form action="" method="post">
+        <form action="../actions/newEpisode.php" method="post">
             <input type="hidden" name="anime_id" value='<?php echo $anime_id ?>'>
             <div>
                 <label for="">episode nb</label>
@@ -28,6 +28,10 @@
             <div>
                 <label for="">iFrame</label>
                 <input type="text" name='link'>
+            </div>
+            <div>
+                <label for="">Saison :</label>
+                <input type="number" name="saison">
             </div>
             <input type="submit">
         </form>

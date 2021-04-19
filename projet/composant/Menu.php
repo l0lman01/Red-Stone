@@ -1,7 +1,7 @@
 <nav>
     <div class="navbar white">
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <a href="index.php"><img src="../img/logo_redstone.png" alt="Red Stone"></a>
+        <a href="../public/index.php"><img src="../img/logo_redstone.png" alt="Red Stone"></a>
         <ul id="nav" class="right hide-on-med-and-down">
             <li><div class="input-field">
                 <input id="search" type="search" required>
