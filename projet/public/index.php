@@ -5,7 +5,7 @@
         <title>Red Stone</title>
     </head>
     <body>
-    <?php require "../composant/MenuNon.php" ?>
+    <?php require "../composant/Menu.php" ?>
     <section>
         <div class="container">
             <div class="carousel">
