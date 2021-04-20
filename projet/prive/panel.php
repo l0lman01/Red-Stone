@@ -26,25 +26,13 @@
                 <div id="anime" class="col s12 grey lighten-2">
                     <div class='row'>
                         <?php require '../composant/listAnime.php'?>
+                        <?php require '../composant/addAnimeModal.php' ?>
                     </div>
 
                 </div>
 
                 <div id="form" class="col s12 grey lighten-2">
-                    <br />
-                    <form action="../actions/newAnime.php" method='post'enctype="multipart/form-data">
-                        <div>
-                            <label>nom de l anime</label>
-                            <input type="text" name='name'>
-                        </div>
-                        <div>
-                            <label>image</label>
-                            <input type="file" name="image">
-                        </div>
-                        <br />
-                        <input type="submit">
-                    </form>
-                    <br />
+
                 </div>
 
 

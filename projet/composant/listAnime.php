@@ -1,6 +1,7 @@
 <div class='row'>
     <h4 class='col s10'>Liste des animes :</h4>
-    <a href="" class='col s2'>ajouter un anime</a>
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Ajouter un animé</a>
+
 </div>
 
 
@@ -14,7 +15,7 @@
         foreach($animes as $anim){
             ?>
             
-            <a href='anime.php?id=<?php echo $anim['id'] ?>' class='col s4 center'>
+            <a href='anime.php?id=<?php echo $anim['id'] ?>' class='col s3 center'>
                 <img src="../img/upload/<?php echo $anim['image'] ?>" style='max-width:150px'>
                 <h6><?php echo $anim['name'] ?></h6>
             </a>

@@ -9,6 +9,7 @@
             dist: 0,
             shift: 50,
             });
+            $('.modal').modal();
             $('.tabs').tabs();
             $('.sidenav').sidenav();
             $('.button-collapse').sideNav();
