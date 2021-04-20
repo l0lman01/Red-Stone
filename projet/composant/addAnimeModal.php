@@ -10,7 +10,9 @@
             <input type="file" name="image" required>
         </div>
         <br />
-        <input type="submit">
+        <button class="btn waves-effect waves-light" type="submit" name="action" >
+          <i class="far fa-plus-square"></i>
+       </button>
       </form>
     </div>
   </div>
