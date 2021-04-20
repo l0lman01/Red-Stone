@@ -8,15 +8,24 @@
     <?php require "../composant/Menu.php" ?>
     <section>
         <div class="container">
-            <div class="carousel">
-                <div classe="row">
-                    <div class="s6">
-                        <div class="carousel-item" href=""><img src="../img/kny_bg.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
-
+            <div class="carousel">                  
+                <div class="carousel-item" href="">
+                    <div class='row'>
+                        <div class='col s6'>
+                            <img src="../img/kny_bg.jpg" alt="Red Stone Kny">
+                        </div>
                     </div>
-                    <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
-
+                        <div class="col s6">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p>
+                        </div>
                 </div>
+                    
+                <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
+                <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
+                <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
+                <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
+                <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
+                <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
             </div>
         </div>
     </section>
@@ -30,7 +39,7 @@
         <h2>MANGA</h2>
     </section>
     <div class="divider"></div>
-    
+
     <section>
         <h2>MUSIQUE</h2>
     </section>
