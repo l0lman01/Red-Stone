@@ -6,5 +6,18 @@
     </head>
     <body>
         <?php require "../composant/Menu.php" ?>
+
+
+
+
+
+
+
+
+
+
+
+
+        <?php require '../composant/footer.php' ?>
     </body>
 </html>
