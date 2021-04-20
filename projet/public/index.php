@@ -29,22 +29,6 @@
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
                 <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
                 <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
@@ -52,19 +36,9 @@
                 <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
                 <div class="carousel-item" href=""><img src="../img/knb.jpg" alt="Red Stone Kny"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis id facilis adipisci incidunt velit ex, debitis recusandae harum laboriosam atque tempore temporibus nisi ab, reiciendis dolore, laborum similique deserunt reprehenderit.</p></div>
             </div>
+
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -93,21 +67,6 @@
                         </div>
                     </div>
                 </div>
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

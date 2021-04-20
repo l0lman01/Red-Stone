@@ -4,6 +4,7 @@
     <script type='text/javascript'>
         $(document).ready(function(){
             $('.carousel').carousel({
+            //fullWidth: true,
             indicators: true,
             dist: 0,
             shift: 50,
