@@ -4,9 +4,13 @@
     <script type='text/javascript'>
         $(document).ready(function(){
             $('.carousel').carousel({
+            // fullWidth: true,
             indicators: true,
             dist: 0,
             shift: 50,
+            });
+            $('.carousel.carousel-slider').carousel({
+            fullWidth: true
             });
             $('.modal').modal();
             $('.tabs').tabs();
