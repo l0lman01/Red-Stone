@@ -11,26 +11,16 @@
             require "../actions/searchAnime.php";
         ?>
         <h1><?php echo $anime['name'] ?></h1>
-
+        <a href="../actions/deleteAnime.php?id=<?php echo $anime['id'] ?>">Supprimer l'anime <i class="fas fa-trash-alt"></i></a>
+        <br>
         <?php require '../composant/listEpisode.php' ?>
 
-        
-
         <hr />
-        <a href="">Ajoutez une saison</a>
-
-        <form action="" method="post">
-            <input type="hidden" name="anime_id" value='<?php echo $anime_id ?>'>
-            <div>
-                <label for="">episode nb</label>
-                <input type="number" name="nb_episode">
-            </div>
-            <div>
-                <label for="">iFrame</label>
-                <input type="text" name='link'>
-            </div>
-            <input type="submit">
-        </form>
-
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1"><i class="fas fa-plus"></i></a>
+        
+        <?php 
+            require '../composant/addEpisodeModal.php';
+            require '../composant/footer.php' 
+        ?>
     </body>
 </html>

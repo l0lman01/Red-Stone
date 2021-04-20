@@ -9,12 +9,12 @@ main {
 }
 
 nav{
-  height: 95px;
+  /* height: 95px; */
   background-color: unset;
 }
 
 nav a.sidenav-trigger {
-  display: block;
+   display: block ; 
 }
 
 nav .input-field{
