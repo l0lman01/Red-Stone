@@ -93,11 +93,23 @@
                 <div class="carousel-item" href="">
                     <div class="card">
                         <div class="card-image">
-                            <img src="">
+                            <img src="../img/sao.jpg">
                         </div>
+                    </div>
+                </div>
 
-                        <div class="card-content">
+                <div class="carousel-item" href="">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/kny_bg.jpg">
+                        </div>
+                    </div>
+                </div>
 
+                <div class="carousel-item" href="">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/tokyo_ghoul.jpg">
                         </div>
                     </div>
                 </div>
@@ -122,7 +134,31 @@
                 <div class="carousel-item" href="">
                     <div class="card">
                         <div class="card-image">
-                            <img src="">
+                            <img src="../img/demon_slayer_scan.jpg">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item" href="">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/neverland.jpg">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item" href="">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/kaguya.jpg">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item" href="">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Haikyu.jpg">
                         </div>
 
                     </div>
@@ -143,7 +179,31 @@
                 <div class="carousel-item" href="">
                     <div class="card">
                         <div class="card-image">
-                            <img src="">
+                            <img src="../img/Lisa.jpg">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item" href="">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/bts.jpg">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item" href="">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/x.jpg">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item" href="">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/mama.jpg">
                         </div>
 
                     </div>

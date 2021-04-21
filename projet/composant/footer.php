@@ -4,10 +4,11 @@
     <script type='text/javascript'>
         $(document).ready(function(){
             $('.carousel').carousel({
-            // fullWidth: true,
             indicators: true,
             dist: 0,
-            shift: 50,
+            shift: 0,
+            padding: 50,
+            noWrap: true,
             });
             $('.carousel.carousel-slider').carousel({
             fullWidth: true
