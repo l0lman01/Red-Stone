@@ -7,6 +7,6 @@
     );
     $pre = $pdo->prepare($sql);
     $pre->execute($dataBinded);
-
-    header('Location: ../prive/panel.php');
+    $id_anime=$_GET['idAnime'];
+    header("Location: ../prive/anime.php?id=$id_anime");
 ?>

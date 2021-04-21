@@ -1,11 +1,11 @@
 <?php 
     if(isset($episode_id)){
-        $sql = "SELECT * FROM episodes WHERE id=:episode_id";
+        $sql = "SELECT * FROM episodes WHERE id=:episode_id ";
         $dataBinded=array(
             ':episode_id'   => $episode_id,
         );
     }else if(isset($anime_id)){
-        $sql = "SELECT * FROM episodes WHERE anime_id=:anime_id";
+        $sql = "SELECT * FROM episodes WHERE anime_id=:anime_id ORDER BY nb_episode";
         $dataBinded=array(
             ':anime_id'   => $anime_id,
         );
