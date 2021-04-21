@@ -13,19 +13,19 @@
               <h2 class="white">Inscription</h2>      
               <div>
                 <h6 class="left">Email</h6>
-              <input placeholder="Votre Email" type="email" name="email"  class="validate">
+              <input placeholder="Votre Email" type="email" name="email"  class="validate" required>
             </div>
 
           <div>
             <h6 class="left">Mot de passe</h6>
-            <input placeholder="Ecrivez votre mot de passe..." type="password" name='password' class="validate">
+            <input placeholder="Ecrivez votre mot de passe..." type="password" name='password' class="validate" required>
           </div>
           
           <div>
             <h6 class="left">Confirmation Mot de Passe</h6>
-            <input placeholder="Ecrivez votre mot de passe..." type="password" name='rePassword' class="validate">
+            <input placeholder="Ecrivez votre mot de passe..." type="password" name='rePassword' class="validate" required>
             <br><br><br>
-            <a class="waves-effect waves-light btn-small red accent-4 ">register</a>
+            <button class="waves-effect waves-light btn-small red accent-4 ">register</button>
           </div>
           <br><br>
           <h5>inscrivez-vous avec :</h5>

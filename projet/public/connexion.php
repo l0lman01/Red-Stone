@@ -8,21 +8,22 @@
 <br><br><br>
     <div class="row center" >
 
-      <form class="center">
+      <form class="center" action="../actions/login.php" method='post'>
 
         <div class="center row">
           <div class="col s3"></div> <div class= "col s6 white">
             <h2 class="white">Login</h2>      
             <div>
             <h6 class="left">Email</h6>
-            <input id="icon_telephone" placeholder="Ecrivez votre Email..." type="tel" class="validate">
+            <input  placeholder="Ecrivez votre Email..." type="email" class="validate" name='email' required>
             </div>
           <div>
             <h6 class="left">Mot de passe</h6>
-            <input id="icon_telephone" placeholder="Ecrivez votre mot de passe..." type="tel" class="validate">
+            <input  placeholder="Ecrivez votre mot de passe..." type="password" class="validate" name='password' required>
+
             <a href="" class="right">Mot de passe oublier ?</a>
             <br><br><br>
-            <a class="waves-effect waves-light btn-small red accent-4 ">Login</a>
+            <button class="waves-effect waves-light btn-small red accent-4 ">Login</button>
             <br><br>
             <h5>Connectez vous avec</h5>
             <div>
