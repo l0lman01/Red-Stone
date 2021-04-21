@@ -97,7 +97,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="carousel-item" href="">
                     <div class="card">
                         <div class="card-image">
@@ -105,7 +104,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="carousel-item" href="">
                     <div class="card">
                         <div class="card-image">
