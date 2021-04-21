@@ -15,7 +15,7 @@
         </div>
         <span class="card-title">VaeH</span>
         <div class="card-content">
-        <h5>inscrit depuis le 4/20/2021</h5>
+        <h5>inscrit depuis le 4/20/2021</h5> <!-- ajouter une colonne date inscription dans la BDD avec datetime -->
         </div>
         </div>
         </div>

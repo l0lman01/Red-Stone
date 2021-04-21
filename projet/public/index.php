@@ -79,13 +79,6 @@
             </div>
     </section>
 
-
-
-
-
-
-
-
     <section>
         <div class='container'>
             <h2>ANIMES</h2>
@@ -112,14 +105,7 @@
                     </div>
                 </div>
 
-            </div>
-            
-
-
-
-        
-        
-        
+            </div>       
         
         </div>
     </section>
@@ -163,9 +149,7 @@
                 </div>
 
             </div>
-        
-        
-        
+  
         </div>
     </section>
     <div class="divider"></div>
@@ -174,38 +158,38 @@
         <div class="container">
             <h2>MUSIQUE</h2>
             <div class="carousel">
-                <div class="carousel-item" href="">
+                <a class="carousel-item" href="https://www.youtube.com/watch?v=TMwOfz77D4U&list=PL1-dQ5pjD94QnPmwsBTAjq5yWAIcret0Z">
                     <div class="card">
                         <div class="card-image">
                             <img src="../img/Lisa.jpg">
                         </div>
 
                     </div>
-                </div>
-                <div class="carousel-item" href="">
+                </a>
+                <a class="carousel-item" href="https://www.youtube.com/watch?v=gdZLi9oWNZg&ab_channel=LiSAOfficialYouTubeLiSAOfficialYouTubeCha%C3%AEned%27artisteofficielle">
                     <div class="card">
                         <div class="card-image">
                             <img src="../img/bts.jpg">
                         </div>
 
                     </div>
-                </div>
-                <div class="carousel-item" href="">
+                </a>
+                <a class="carousel-item" href="https://www.youtube.com/watch?v=LlQEKB2H7z4&ab_channel=LiSAOfficialYouTubeLiSAOfficialYouTubeCha%C3%AEned%27artisteofficielle">
                     <div class="card">
                         <div class="card-image">
                             <img src="../img/x.jpg">
                         </div>
 
                     </div>
-                </div>
-                <div class="carousel-item" href="">
+                </a>
+                <a class="carousel-item" href="https://www.youtube.com/watch?v=KH6ZwnqZ7Wo&ab_channel=SMTOWN">
                     <div class="card">
                         <div class="card-image">
                             <img src="../img/mama.jpg">
                         </div>
 
                     </div>
-                </div>
+                </a>
 
             </div>
 
