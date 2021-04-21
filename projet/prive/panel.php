@@ -18,16 +18,14 @@
                 <div class="col s12">
                 <ul class="tabs">
                     <li class="tab col s3"><a class="active" href="#anime">anime</a></li>
-                    <li class="tab col s3"><a href="#form">Ajout anime (temporaire)</a></li>
-                    <li class="tab col s3"><a href="#test3">Disabled Tab</a></li>
+                    <li class="tab col s3 disabled" ><a href="#manga">manga</a></li>
+                    <li class="tab col s3 disabled" ><a href="#musique">musique</a></li>
                     <li class="tab col s3"><a href="#test4">Test 4</a></li>
                 </ul>
                 </div>
                 <div id="anime" class="col s12 grey lighten-2">
-                    <div class='row'>
                         <?php require '../composant/listAnime.php'?>
                         <?php require '../composant/addAnimeModal.php' ?>
-                    </div>
 
                 </div>
 
