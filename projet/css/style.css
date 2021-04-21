@@ -69,3 +69,7 @@ div.input-field{
 .multianimebg{
   background-image: url("../img/Multi-bg.png");
 }
+
+.card-title{
+margin-left: 12px;  
+}
