@@ -115,38 +115,38 @@
         <div class='container'>
             <h2>MANGA</h2>
             <div class="carousel">
-                <div class="carousel-item" href="">
+                <a class="carousel-item" href="https://scansmangas.xyz/manga/kimetsu-no-yaiba/">
                     <div class="card">
                         <div class="card-image">
                             <img src="../img/demon_slayer_scan.jpg">
                         </div>
 
                     </div>
-                </div>
-                <div class="carousel-item" href="">
+                </a>
+                <a class="carousel-item" href="https://scansmangas.xyz/manga/the-promised-neverland/">
                     <div class="card">
                         <div class="card-image">
                             <img src="../img/neverland.jpg">
                         </div>
 
                     </div>
-                </div>
-                <div class="carousel-item" href="">
+                </a>
+                <a class="carousel-item" href="https://scansmangas.xyz/manga/kaguya-sama-love-is-war/">
                     <div class="card">
                         <div class="card-image">
                             <img src="../img/kaguya.jpg">
                         </div>
 
                     </div>
-                </div>
-                <div class="carousel-item" href="">
+                </a>
+                <a class="carousel-item" href="https://scansmangas.xyz/manga/haikyuu/">
                     <div class="card">
                         <div class="card-image">
                             <img src="../img/Haikyu.jpg">
                         </div>
 
                     </div>
-                </div>
+                </a>
 
             </div>
   
