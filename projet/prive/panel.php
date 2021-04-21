@@ -30,8 +30,10 @@
                 </div>
 
 
-                <div id="user" class="col s12">Test 4</div>
+                <div id="user" class="col s12 grey lighten-2">
+                    <? require '../composant/listUser.php' ?>
                 </div>
+            </div>
 
 
   
