@@ -20,7 +20,7 @@
                     <li class="tab col s3"><a class="active" href="#anime">anime</a></li>
                     <li class="tab col s3 disabled" ><a href="#manga">manga</a></li>
                     <li class="tab col s3 disabled" ><a href="#musique">musique</a></li>
-                    <li class="tab col s3"><a href="#test4">Test 4</a></li>
+                    <li class="tab col s3"><a href="#user">user</a></li>
                 </ul>
                 </div>
                 <div id="anime" class="col s12 grey lighten-2">
@@ -29,21 +29,9 @@
 
                 </div>
 
-                <div id="form" class="col s12 grey lighten-2">
 
+                <div id="user" class="col s12">Test 4</div>
                 </div>
-
-
-
-                <div id="test3" class="col s12">
-                <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="../img/bts.jpg"></a>
-                    <a class="carousel-item" href="#two!"><img src="../img/knb.jpg"></a>
-                </div>
-
-                </div>
-                <div id="test4" class="col s12">Test 4</div>
-            </div>
 
 
   

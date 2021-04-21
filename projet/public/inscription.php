@@ -7,33 +7,35 @@
         <?php require "../composant/Menu.php" ?>
         <br><br><br> 
       <div class="row center" >
-
         <form class="center" action='../actions/register.php' method='post'>
-
           <div class="center row">
-            <div class="col s3"></div> 
-            
-            <div class= "col s6 white">
+            <div class="col s3"></div> <div class= "col s6 white">
               <h2 class="white">Inscription</h2>      
-            <div class="input-field ">
-          
-            <h6 class="left">Email</h6>
-            <input placeholder="Votre Email" type="email" name="email"  class="validate">
-          </div>
+              <div>
+                <h6 class="left">Email</h6>
+              <input placeholder="Votre Email" type="email" name="email"  class="validate" required>
+            </div>
 
-          <div class="input-field">
+          <div>
             <h6 class="left">Mot de passe</h6>
-            <input placeholder="Ecrivez votre mot de passe..." type="password" name='password' class="validate">
+            <input placeholder="Ecrivez votre mot de passe..." type="password" name='password' class="validate" required>
           </div>
           
-          <div class="input-field">
+          <div>
             <h6 class="left">Confirmation Mot de Passe</h6>
-            <input placeholder="Ecrivez votre mot de passe..." type="password" name='rePassword' class="validate">
+            <input placeholder="Ecrivez votre mot de passe..." type="password" name='rePassword' class="validate" required>
             <br><br><br>
-            <input class="waves-effect waves-light btn-small red accent-4 " type='submit' value='inscrire'>
+            <button class="waves-effect waves-light btn-small red accent-4 ">register</button>
           </div>
+          <br><br>
+          <h5>inscrivez-vous avec :</h5>
+            <div>
+              <div class='size'>  
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-google"></i>
+            </div>
+              <h6>pas encore inscrits ?</h6><a href="">Inscrivez-vous maintenant</a>
 
-          </div>
             <div class="col s3"></div>
           </div>
         </form>

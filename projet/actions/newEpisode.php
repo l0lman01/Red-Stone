@@ -10,7 +10,8 @@
     );
     $pre = $pdo->prepare($sql);
     $pre->execute($dataBinded);
+    $id= $_POST['anime_id'];
 
-    header('Location: ../prive/panel.php');
+    header("Location: ../prive/anime.php?id=$id");
 
 ?>

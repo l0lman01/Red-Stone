@@ -96,6 +96,9 @@
                             <img src="">
                         </div>
 
+                        <div class="card-content">
+
+                        </div>
                     </div>
                 </div>
 
