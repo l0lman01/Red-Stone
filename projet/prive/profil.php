@@ -11,7 +11,7 @@
           <div class="col s12 m4">
             <div class="card">
               <div class="card-image">
-                <img class="pp" src="../img/img_profil/<?php echo $_SESSION['user']['profil_picture'] ?>">
+                <img class="pp" src="../img/imgProfil/<?php echo $_SESSION['user']['profil_picture'] ?>">
               </div>
               <span class="card-title"><?php echo $_SESSION['user']['email'] ?></span>
               <div class="card-content">

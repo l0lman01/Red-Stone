@@ -13,14 +13,16 @@
         $pre = $pdo->prepare($sql);
         $pre->execute($dataBinded);
         $user = current($pre->fetchAll(PDO::FETCH_ASSOC));
-    
-        if(isset($user)){
+        
+        if(empty($user)){
             $passwordhash = password_hash(($_POST['password'] ), PASSWORD_DEFAULT);
-            
-            $sql = "INSERT INTO user(email,password) VALUES (:email, :password)";
+            $date = date("Y-m-j");
+
+            $sql = "INSERT INTO user(email,password,creation_account) VALUES (:email, :password, :creation_account)";
             $dataBinded=array(
                 ':email'   => $_POST['email'],
                 ':password'=> $passwordhash,
+                ':creation_account'=> $date,
             );
             $pre = $pdo->prepare($sql);
             $pre->execute($dataBinded);
