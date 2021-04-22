@@ -79,3 +79,14 @@ margin-left: 12px;
 .turk{
   height: 500px !important;
 }
+
+.backgroundoffre{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/black_clover_bg.png');
+  backdrop-filter: blur(3px); 
+}
+
+.titleoffre{
+  margin-top: 50px;
+  border-radius: 15px;
+  background-color: rgba(167, 167, 167, 0.555);
+}
