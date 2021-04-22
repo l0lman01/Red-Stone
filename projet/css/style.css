@@ -13,12 +13,13 @@ nav{
   background-color: unset;
 }
 
+
 nav a.sidenav-trigger {
    display: block ; 
 }
 
 nav .input-field{
-  height: unset;
+  height: auto;
 }
 
 
@@ -51,6 +52,7 @@ div.input-field{
   margin-right: 8px;
   margin-top: 8px;
   background-color: #6A0000;
+  flex-grow: 1;
 }
 
 .adminTab{
