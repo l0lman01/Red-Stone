@@ -11,7 +11,7 @@
             noWrap: true,
             });
             $('.carousel.carousel-slider').carousel({
-                fullWidth: true
+            fullWidth: true,
             });
             $('.modal').modal();
             $('.tabs').tabs();

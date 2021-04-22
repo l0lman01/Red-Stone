@@ -13,12 +13,13 @@ nav{
   background-color: unset;
 }
 
+
 nav a.sidenav-trigger {
    display: block ; 
 }
 
 nav .input-field{
-  height: unset;
+  height: auto;
 }
 
 
