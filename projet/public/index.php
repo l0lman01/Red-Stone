@@ -44,7 +44,7 @@
                     <div class='col s12'>
                         <div class="card horizontal">
                             <div class="card-image">
-                                <img src="../img/upload/BOFURI.jpg" alt="Red Stone Bofuri">
+                                <img src="../img/imgAnime/BOFURI.jpg" alt="Red Stone Bofuri">
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Bofuri</span>
@@ -78,10 +78,12 @@
             <h2>ANIMES</h2>
             <div class="carousel">
                 <div class="carousel-item" href="">
+                    <div class="tooltipped" data-position="left" data-tooltip="I am a tooltip">
                     <div class="card">
                         <div class="card-image">
                             <img src="../img/sao.jpg">
                         </div>
+                    </div>
                     </div>
                 </div>
                 <div class="carousel-item" href="">
