@@ -22,6 +22,10 @@ nav .input-field{
   height: auto;
 }
 
+.sidenav{
+  background-color: rgba(226, 90, 90, 0.534);
+}
+
 
 input#search{
   width: 500px;
