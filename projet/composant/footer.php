@@ -18,6 +18,7 @@
             $('.sidenav').sidenav();
             $('.button-collapse').sideNav();
             $('select').formSelect();
+            $('.tooltipped').tooltip();
         })
 
     </script>

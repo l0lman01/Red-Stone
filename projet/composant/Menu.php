@@ -35,19 +35,22 @@
   <li><div class="divider"></div></li>
   <li><a href="../public/manga.php">Manga</a></li>
   <li><div class="divider"></div></li>
-  <li><a href="../prive/profil.php">Profile</a></li>
+
   <?php 
     if(empty($_SESSION['user'])){ 
   ?>
-    <li><a href="../public/inscription.php" class="button">S'inscrire</a></li>
-    <li><a href="../public/connexion.php" class="button">Se Connecter</a></li>
+    <li><a href="../public/inscription.php">S'inscrire</a></li>
+    <li><div class="divider"></div></li>
+    <li><a href="../public/connexion.php">Se Connecter</a></li>
   <?php }else{
     $user = $_SESSION['user'];
     if($user['statut'] == 'admin'){  
   ?>
-      <li><a href="../prive/panel.php" class="button">Panel Admin</a></li>
+    <li><a href="../prive/profil.php">Profile</a></li>
+    <li><div class="divider"></div></li>
+    <li><a href="../prive/panel.php">Panel Admin</a></li>
+    <li><div class="divider"></div></li>
   <?php } ?>                
-    <li><a href="../prive/profil.php" class="button">Mon Profile</a></li>
-    <li><a href="../actions/logout.php" class="button">Déconnexion</a></li>
+    <li><a href="../actions/logout.php">Déconnexion</a></li>
   <?php } ?>
 </ul>
