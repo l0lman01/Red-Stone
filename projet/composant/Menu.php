@@ -17,7 +17,7 @@
               $user = $_SESSION['user'];
               if($user['statut'] == 'admin'){  
             ?>
-                <li><a href="../prive/panel.php" class="button">Panel Animes</a></li>
+                <li><a href="../prive/panel.php" class="button">Panel Admin</a></li>
             <?php } ?>                
               <li><a href="../prive/profil.php" class="button">Mon Profile</a></li>
               <li><a href="../actions/logout.php" class="button">Déconnexion</a></li>

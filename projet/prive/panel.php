@@ -26,12 +26,11 @@
                 <div id="anime" class="col s12 grey lighten-2">
                         <?php require '../composant/listAnime.php'?>
                         <?php require '../composant/addAnimeModal.php' ?>
-
                 </div>
 
 
                 <div id="user" class="col s12 grey lighten-2">
-                    <? require '../composant/listUser.php' ?>
+                    <?php require '../composant/listUser.php' ?>
                 </div>
             </div>
 
