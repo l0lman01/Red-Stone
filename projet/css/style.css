@@ -8,6 +8,14 @@ main {
   flex: 1 0 auto;
 }
 
+h3{
+  text-align: center;
+}
+
+#anime, #user{
+  background-color: #d85858a9;
+}
+
 nav{
   /* height: 95px; */
   background-color: unset;
