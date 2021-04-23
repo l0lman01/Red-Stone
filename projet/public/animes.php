@@ -76,14 +76,10 @@
             </div>
         </div>
 
+        <?php require '../actions/searchAllAnime.php' ?>
 
 
-
-
-
-
-
-        <div><!-- les plus populaires --> 
+    <!-- les plus populaires --> 
             <div class="row">
                 <div>
                     <div class="col s1 m1"></div>
@@ -99,166 +95,10 @@
                         <h5 class="red-text text-accent-4">LES PLUS POPULAIRES...</h5> <a class="CI" href="">voir tout le catalogue</a>
                     </div>
                 </div>
+                <?php require '../composant/carouselPopAnime.php' ?>
             </div>
-
-            <div class="carousel carouselAnime">             
-                <div class="carousel-item carouselAnimeItem">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="card large">
-                                <div class="card-image">
-                                    <img src="../img/kny_card_img.jpg">
-                                    <span class="card-title">Demon Slayer</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                        I am convenient because I require little markup to use effectively.</p>
-                                    
-                                </div>
-                                <div class="card-action">
-                                    <a href="#">This is a link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item carouselAnimeItem">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="card large">
-                                <div class="card-image">
-                                    <img src="../img/imgAnime/BOFURI.jpg">
-                                    <span class="card-title">Demon Slayer</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>je suis une carte tres simple. je suis bonne à contenir de petit information.
-                                    </p>
-                                </div>
-                                <div class="card-action">
-                                    <a href="#">This is a link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item carouselAnimeItem">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="card large">
-                                <div class="card-image ">
-                                    <img src="../img/kny_card_img.jpg">
-                                    <span class="card-title">Demon Slayer</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                        I am convenient because I require little markup to use effectively.</p>
-                                </div>
-                                <div class="card-action">
-                                    <a href="#">This is a link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item carouselAnimeItem">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="card large">
-                                <div class="card-image">
-                                    <img src="../img/kny_card_img.jpg">
-                                    <span class="card-title">Demon Slayer</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>je suis une carte tres simple. je suis bonne à contenir de petit information.
-                                    </p>
-                                </div>
-                                <div class="card-action">
-                                    <a href="#">This is a link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item carouselAnimeItem">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="card large">
-                                <div class="card-image">
-                                    <img src="../img/kny_card_img.jpg">
-                                    <span class="card-title">Demon Slayer</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                        I am convenient because I require little markup to use effectively.</p>
-                                </div>
-                                <div class="card-action">
-                                    <a href="#">This is a link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item carouselAnimeItem">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="card large">
-                                <div class="card-image">
-                                    <img src="../img/kny_card_img.jpg">
-                                    <span class="card-title">Demon Slayer</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>je suis une carte tres simple. je suis bonne à contenir de petit information.
-                                    </p>
-                                </div>
-                                <div class="card-action">
-                                    <a href="#">This is a link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item carouselAnimeItem">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="card large">
-                                <div class="card-image">
-                                    <img src="../img/kny_card_img.jpg">
-                                    <span class="card-title">Demon Slayer</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                        I am convenient because I require little markup to use effectively.</p>
-                                </div>
-                                <div class="card-action">
-                                    <a href="#">This is a link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item carouselAnimeItem">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="card large">
-                                <div class="card-image">
-                                    <img src="../img/kny_card_img.jpg">
-                                    <span class="card-title">Demon Slayer</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>je suis une carte tres simple. je suis bonne à contenir de petit information.
-                                    </p>
-                                </div>
-                                <div class="card-action">
-                                    <a href="#">This is a link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
+            
+            
             <div class="row">
                 <div>
                     <div class="col s1 m1"></div>
@@ -274,6 +114,7 @@
                         <h5 class="red-text text-accent-4">LES PLUS SORTIES...</h5> <a class="CI" href="">voir tout le catalogue</a>
                     </div>
                 </div>
+                <?php require '../composant/carouselRecentAnime.php' ?>
             </div>
             <div class="row">
                 <div>
