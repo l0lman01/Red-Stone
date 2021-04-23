@@ -1,7 +1,7 @@
+</br>
+<a class=" waves-effect waves-light btn modal-trigger " href="#modal1">Ajouter un animé</a>
 <div class='row'>
     <h4 class='col s8'>Liste des animes :</h4>
-    <a class=" waves-effect waves-light btn modal-trigger " href="#modal1">Ajouter un animé</a>
-
 </div>
 <div class='rowflex center-xs'>
     <?php 

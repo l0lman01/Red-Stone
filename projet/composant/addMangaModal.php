@@ -1,8 +1,8 @@
-<div id="modal1" class="modal">
+<div id="modal2" class="modal">
     <div class="modal-content">
-      <form action="../actions/newAnime.php" method='post'enctype="multipart/form-data">
+      <form action="../actions/newManga.php" method='post' enctype="multipart/form-data">
         <div>
-            <label>Nom de l'anime</label>
+            <label>Nom du manga</label>
             <input type="text" name='name' required>
         </div>
         <br/>
@@ -10,6 +10,9 @@
             <label>Image</label>
             <br/>
             <input type="file" name="image" required>
+        </div>
+        <div>
+            
         </div>
         <br/>
         <br/>

@@ -109,7 +109,7 @@
     <section>
         <div class='container'>
             <h2>MANGA</h2>
-            <div class="carousel">
+            <div class="carousel" style="height: 550px;">
                 <a class="carousel-item" href="https://scansmangas.xyz/manga/kimetsu-no-yaiba/">
                     <div class="card">
                         <div class="card-image">
