@@ -29,9 +29,15 @@
             <div>
               <div class='size'>  
                 <i class="fab fa-facebook"></i>
+
+
+
                 <i class="fab fa-google"></i>
+
+
+                
               </div>
-              <h6>deja inscrits ?</h6><a href="">connectez vous maintenant</a>              </div>
+              <h6>deja inscrits ?</h6><a href="">connectez vous maintenant</a>
             </div>
           </div>
         </div>

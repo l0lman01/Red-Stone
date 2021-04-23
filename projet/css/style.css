@@ -1,7 +1,7 @@
 body {
   min-height: 100vh;
   flex-direction: column;
-  background-color: white;
+  background-color: #f79797;
 }
 
 main {
@@ -17,8 +17,8 @@ h3{
 }
 
 nav{
-  /* height: 95px; */
-  background-color: unset;
+  height: 95px;
+  background-color: #c28484;
 }
 
 
