@@ -13,6 +13,10 @@
             $('.carousel.carousel-slider').carousel({
             fullWidth: true,
             });
+            $('.carouselAnime').carousel({
+                numVisible: 5,
+                dist: 0,
+            });
             $('.modal').modal();
             $('.tabs').tabs();
             $('.sidenav').sidenav();

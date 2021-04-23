@@ -94,3 +94,25 @@ margin-left: 12px;
   border-radius: 15px;
   background-color: rgba(167, 167, 167, 0.555);
 }
+
+div.carouselAnime{
+  height: 700px;
+}
+
+.carousel div.carouselAnimeItem{
+  height: 600px;
+  width: 360px;
+ 
+}
+
+.subverse{
+  
+  display: flex;
+  align-items: baseline;
+
+}
+
+.CI{
+  margin-left: 10px;
+  color: red;
+}
