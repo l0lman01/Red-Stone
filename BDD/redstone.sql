@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : jeu. 22 avr. 2021 à 14:05
+-- Généré le : ven. 23 avr. 2021 à 12:57
 -- Version du serveur :  8.0.24
 -- Version de PHP : 8.0.3
 
@@ -31,8 +31,11 @@ DROP TABLE IF EXISTS `animes`;
 CREATE TABLE IF NOT EXISTS `animes` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL,
+  `description` text NOT NULL,
   `categorie` varchar(50) NOT NULL,
   `image` varchar(255) NOT NULL,
+  `nb_folo` int NOT NULL DEFAULT '0',
+  `date_created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -40,18 +43,18 @@ CREATE TABLE IF NOT EXISTS `animes` (
 -- Déchargement des données de la table `animes`
 --
 
-INSERT INTO `animes` (`id`, `name`, `categorie`, `image`) VALUES
-(1, 'Bofuri', '', 'BOFURI.jpg'),
-(8, 'Redo of Healer', '', 'Redo of Healer.jpg'),
-(3, 'Rent a Girlfriend', '', 'Rent a Girlfriend.jpg'),
-(4, 'Tonikawa over the moon', '', 'Tonikawa over the moon.jpg'),
-(12, 'Uzaki chan want to Hang Out !', '', 'Uzaki-chan Wants to Hang Out!.jpg'),
-(13, 'Uzaki chan want to Hang Out !', '', 'Uzaki-chan Wants to Hang Out!.jpg'),
-(14, 'Uzaki chan want to Hang Out !', '', 'Uzaki-chan Wants to Hang Out!.jpg'),
-(15, 'Tonikawa over the moon', '', 'Tonikawa over the moon.jpg'),
-(16, 'Bofuri', '', 'BOFURI.jpg'),
-(17, 'Uzaki chan want to Hang Out !', '', 'Uzaki-chan Wants to Hang Out!.jpg'),
-(18, 'Uzaki chan want to Hang Out !', '', 'Uzaki-chan Wants to Hang Out!.jpg');
+INSERT INTO `animes` (`id`, `name`, `description`, `categorie`, `image`, `nb_folo`, `date_created`) VALUES
+(1, 'Bofuri', '', '', 'BOFURI.jpg', 0, '2021-04-23 12:16:54'),
+(8, 'Redo of Healer', '', '', 'Redo of Healer.jpg', 1, '2021-04-23 12:15:57'),
+(3, 'Rent a Girlfriend', '', '', 'Rent a Girlfriend.jpg', 0, '2021-04-23 12:16:54'),
+(4, 'Tonikawa over the moon', '', '', 'Tonikawa over the moon.jpg', 0, '2021-04-23 12:16:54'),
+(12, 'Uzaki chan want to Hang Out !', '', '', 'Uzaki-chan Wants to Hang Out!.jpg', 0, '2021-04-23 12:16:54'),
+(13, 'Uzaki chan want to Hang Out !', '', '', 'Uzaki-chan Wants to Hang Out!.jpg', 0, '2021-04-23 12:16:54'),
+(14, 'Uzaki chan want to Hang Out !', '', '', 'Uzaki-chan Wants to Hang Out!.jpg', 0, '2021-04-23 12:16:54'),
+(15, 'Tonikawa over the moon', '', '', 'Tonikawa over the moon.jpg', 0, '2021-04-23 12:16:54'),
+(16, 'Bofuri', '', '', 'BOFURI.jpg', 0, '2021-04-23 12:16:54'),
+(17, 'Uzaki chan want to Hang Out !', '', '', 'Uzaki-chan Wants to Hang Out!.jpg', 0, '2021-04-23 12:16:54'),
+(18, 'Uzaki chan want to Hang Out !', '', '', 'Uzaki-chan Wants to Hang Out!.jpg', 0, '2021-04-23 12:16:54');
 
 -- --------------------------------------------------------
 
@@ -109,6 +112,19 @@ INSERT INTO `episodes` (`id`, `nb_episode`, `anime_id`, `link`, `description`, `
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `folo_anime`
+--
+
+DROP TABLE IF EXISTS `folo_anime`;
+CREATE TABLE IF NOT EXISTS `folo_anime` (
+  `anime_id` int NOT NULL,
+  `user_id` int NOT NULL,
+  PRIMARY KEY (`anime_id`,`user_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `user`
 --
 
@@ -122,7 +138,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `profil_picture` varchar(100) NOT NULL DEFAULT 'Default.png',
   `end_subscription` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `user`
@@ -131,7 +147,8 @@ CREATE TABLE IF NOT EXISTS `user` (
 INSERT INTO `user` (`id`, `email`, `password`, `statut`, `creation_account`, `profil_picture`, `end_subscription`) VALUES
 (1, 'test@test.test', '$2y$10$hM86G9Isz7copJ7jZqA/EemYzv9MZKNsCCVTmx6Tfnex7UEG3bCBG', 'admin', '0000-00-00', 'Default.png', NULL),
 (3, 'wow@wow.wow', '$2y$10$1OvH6k1LLIJU/Fs94Pbv/eTg6XOVNLArZm3ZrhghZtVY0y3L2feva', 'client', '0000-00-00', 'Default.png', NULL),
-(4, 'lol@lol.lol', '$2y$10$.K5Hf1Rr2W15OGnbNWO.Vuq6HzMIl/5Wh5lHiIzu5BDSWKC8ZYe1S', 'host', '0000-00-00', 'Default.png', NULL);
+(4, 'lol@lol.lol', '$2y$10$.K5Hf1Rr2W15OGnbNWO.Vuq6HzMIl/5Wh5lHiIzu5BDSWKC8ZYe1S', 'host', '0000-00-00', 'Default.png', NULL),
+(5, 'bonsoir@bonsoir.bonsoir', '$2y$10$C3OaqqgM.c6PExWQdyJKeuyx9YZqSRzVBED3i8YsLEUVeJHKvhc5a', 'host', '2021-04-22', 'Default.png', NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
