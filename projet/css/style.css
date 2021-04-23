@@ -94,3 +94,20 @@ margin-left: 12px;
   border-radius: 15px;
   background-color: rgba(167, 167, 167, 0.555);
 }
+
+.subtitleoffre{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btnoffre{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  border-radius: 100px;
+}
+
+
