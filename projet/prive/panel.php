@@ -15,7 +15,7 @@
                 ?>
                 
               <div class="row adminTab">
-                <div class="col s12">
+                <div class="col s12" style=" padding: 0px">
                 <ul class="tabs">
                     <li class="tab col s3"><a class="active" href="#anime">anime</a></li>
                     <li class="tab col s3 disabled" ><a href="#manga">manga</a></li>
@@ -23,13 +23,13 @@
                     <li class="tab col s3"><a href="#user">user</a></li>
                 </ul>
                 </div>
-                <div id="anime" class="col s12 grey lighten-2">
+                <div id="anime" class="col s12">
                         <?php require '../composant/listAnime.php'?>
                         <?php require '../composant/addAnimeModal.php' ?>
                 </div>
 
 
-                <div id="user" class="col s12 grey lighten-2">
+                <div id="user" class="col s12">
                     <?php require '../composant/listUser.php' ?>
                 </div>
             </div>

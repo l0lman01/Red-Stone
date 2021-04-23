@@ -1,7 +1,7 @@
 <html lang="fr">
     <head>
         <?php require "../composant/head.php" ?>
-        <title>Red Stone | inscription</title>
+        <title>Red Stone | Episode</title>
     </head>
     <body>
         <?php 

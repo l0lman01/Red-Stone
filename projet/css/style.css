@@ -8,6 +8,14 @@ main {
   flex: 1 0 auto;
 }
 
+h3{
+  text-align: center;
+}
+
+#anime, #user{
+  background-color: #d85858a9;
+}
+
 nav{
   /* height: 95px; */
   background-color: unset;
@@ -116,3 +124,19 @@ div.carouselAnime{
   margin-left: 10px;
   color: red;
 }
+.subtitleoffre{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btnoffre{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  border-radius: 100px;
+}
+
+
