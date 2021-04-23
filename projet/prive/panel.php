@@ -34,8 +34,6 @@
                 </div>
             </div>
 
-
-  
                 <?php
                 }else{
                     ?>
@@ -49,7 +47,5 @@
             }
             require '../composant/footer.php'
         ?>
-
-            </script>
     </body>
 </html>

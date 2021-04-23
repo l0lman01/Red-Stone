@@ -2,14 +2,18 @@
     <div class="modal-content">
       <form action="../actions/newAnime.php" method='post'enctype="multipart/form-data">
         <div>
-            <label>nom de l anime</label>
+            <label>Nom de l'anime</label>
             <input type="text" name='name' required>
         </div>
+        <br/>
         <div>
-            <label>image</label>
+            <label>Image</label>
+            <br/>
             <input type="file" name="image" required>
         </div>
-        <br />
+        <br/>
+        <br/>
+        <br/>
         <button class="btn waves-effect waves-light" type="submit" name="action" >
           <i class="far fa-plus-square"></i>
        </button>
