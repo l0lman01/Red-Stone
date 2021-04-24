@@ -29,7 +29,9 @@
       </ul>
     </div>
     <div class="card-content grey lighten-4">
-      <div id="animess">Test 1</div>
+      <div id="animess">
+        <!-- PHP -->
+      </div>
       <div id="scanss">Test 2</div>
     </div>
  </div>
