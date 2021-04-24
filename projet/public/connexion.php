@@ -37,7 +37,7 @@
 
                 
               </div>
-              <h6>Pas encore inscrits ?</h6><a href="../public/inscription.php">connectez vous maintenant</a>
+              <h6>Pas encore inscrits ?</h6><a href="../public/inscription.php">Inscrivez-vous maintenant</a>
             </div>
           </div>
         </div>
