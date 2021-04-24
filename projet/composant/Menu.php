@@ -25,6 +25,8 @@
   <li><div class="divider"></div></li>
   <li><a href="../public/manga.php">Manga</a></li>
   <li><div class="divider"></div></li>
+  <li><a href="../public/subscription.php">Abonnement</a></li>
+  <li><div class="divider"></div></li>
 
   <?php 
     if(empty($_SESSION['user'])){ 
