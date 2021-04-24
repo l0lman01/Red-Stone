@@ -162,7 +162,7 @@ div.bubble{
   width: 200px;
   height: 50px;
   border-radius: 30px;
-  padding-right: 15px;
+  padding-right: 30px;
   padding-top: 10px;
 }
 
@@ -176,3 +176,10 @@ div div.glip{
   width: 100px;
 }
 
+.cloud{
+  border-radius: 30px;
+}
+
+.mt{
+  height: 50px;
+}

@@ -15,6 +15,10 @@
                 <h6 class="left">Email</h6>
               <input placeholder="Votre Email" type="email" name="email"  class="validate" required>
             </div>
+            <div>
+                <h6 class="left">Nom d'utilisateur</h6>
+              <input placeholder="Votre nom d'utilisateur" type="text" name="username"  class="validate" required>
+            </div>
 
           <div>
             <h6 class="left">Mot de passe</h6>
