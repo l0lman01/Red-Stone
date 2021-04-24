@@ -11,8 +11,9 @@
             <br/>
             <input type="file" name="image" required>
         </div>
+        <br/>
         <div>
-            
+            <textarea name="description" cols="30" rows="10" placeholder="Entrer une descritption..." ></textarea>
         </div>
         <br/>
         <br/>

@@ -29,7 +29,8 @@
                 </div>
 
                 <div id="manga" class="col s12">
-                    
+                    <?php require '../composant/listManga.php'?>
+                    <?php require '../composant/addMangaModal.php' ?>                    
                 </div>
 
 

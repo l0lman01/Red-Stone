@@ -1,5 +1,4 @@
 <?php 
-
     if(isset($episodes[0])){
         foreach($episodes as $episode){
             ?>
