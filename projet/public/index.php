@@ -76,31 +76,8 @@
     <section>
         <div class='container'>
             <h2>ANIMES</h2>
-            <div class="carousel">
-                <div class="carousel-item" href="">
-                    <div class="tooltipped" data-position="left" data-tooltip="I am a tooltip">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="../img/sao.jpg">
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="carousel-item" href="">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="../img/kny_bg.jpg">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" href="">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="../img/tokyo_ghoul.jpg">
-                        </div>
-                    </div>
-                </div>
-            </div>       
+            <?php require '../actions/searchAllAnime.php' ?>
+            <?php require '../composant/carouselPopAnime.php' ?>       
         </div>
     </section>
     <div class="divider"></div>
