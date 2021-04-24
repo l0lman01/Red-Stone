@@ -25,14 +25,27 @@
     <section>
         <div class='container'>
             <h2>MANGA</h2>
-            <div class="carousel" style="height: 550px;">
-                <a class="carousel-item" href="https://scansmangas.xyz/manga/kimetsu-no-yaiba/">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="../img/demon_slayer_scan.jpg">
+            <!-- <?php // require '../composant/carouselManga.php' ?> -->
+            <div class="carousel " style="height: 550px;">
+                <div class="carousel-item carouselAnimeItem">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card large">
+                                <div class="card-image">
+                                    <img src="../img/demon_slayer_scan.jpg">
+                                </div>
+
+                                <div class="card-content">
+                                    <span class="card-title">Demon Slayer</span>
+                                </div>
+
+                                <div class="card-action">
+                                    <a href="https://scansmangas.xyz/manga/kimetsu-no-yaiba/">Lire</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </a>
+                </div>
                 <a class="carousel-item" href="https://scansmangas.xyz/manga/the-promised-neverland/">
                     <div class="card">
                         <div class="card-image">

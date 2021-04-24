@@ -7,6 +7,58 @@
     </head>
     <body>
         <?php require "../composant/Menu.php" ?>
+        <div class="row">
+                <div>
+                    <div class="col s1 m1"></div>
+                    <div>
+                        <h2 class="red-text text-accent-4">Manga</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col s1 m1 "></div>
+                        <div class="col s8 m8 divider"></div>
+                        <div class="col s3 m3"></div>
+                    </div>
+                    <div class="col s1 m1 "></div><div class=subverse>
+                        <h5 class="red-text text-accent-4">LES PLUS POPULAIRES...</h5> <a class="CI" href="">voir tout le catalogue</a>
+                    </div>
+                </div>
+                <?php require '../composant/carouselPopAnime.php' ?>
+            </div>
+            
+            
+            <div class="row">
+                <div>
+                    <div class="col s1 m1"></div>
+                    <div>
+                        <h2 class="red-text text-accent-4">Manga</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col s1 m1 "></div>
+                        <div class="col s8 m8 divider"></div>
+                        <div class="col s3 m3"></div>
+                    </div>
+                    <div class="col s1 m1 "></div><div class=subverse>
+                        <h5 class="red-text text-accent-4">LES PLUS SORTIES...</h5> <a class="CI" href="">voir tout le catalogue</a>
+                    </div>
+                </div>
+                <?php require '../composant/carouselRecentAnime.php' ?>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="col s1 m1"></div>
+                    <div>
+                        <h2 class="red-text text-accent-4">Anime</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col s1 m1 "></div>
+                        <div class="col s8 m8 divider"></div>
+                        <div class="col s3 m3"></div>
+                    </div>
+                    <div class="col s1 m1 "></div><div class=subverse>
+                        <h5 class="red-text text-accent-4">SUGGESTIONS...</h5> <a class="CI" href="">voir tout le catalogue</a>
+                    </div>
+                </div>
+            </div>
         
 
         <?php require '../composant/footer.php' ?>
