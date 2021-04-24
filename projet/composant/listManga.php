@@ -25,4 +25,4 @@
             echo "Pas de manga enregistrer";
         }
     ?>
-</div>
+</div> 

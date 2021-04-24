@@ -15,7 +15,8 @@
             <h2>ANIMES</h2>
             <?php 
                 require '../actions/searchAllAnime.php';
-                require '../composant/carouselPopAnime.php';
+                $typeCarousel = $animesPop;
+                require '../composant/carouselAnimeManga.php';
             ?>      
         </div>
     </section>
@@ -25,7 +26,14 @@
     <section>
         <div class='container'>
             <h2>MANGA</h2>
-            <!-- <?php // require '../composant/carouselManga.php' ?> -->
+            <?php  
+                require '../actions/searchAllManga.php'; 
+                $typeCarousel = $mangasPop;
+                require '../composant/carouselAnimeManga.php'; 
+            ?> 
+
+
+
             <div class="carousel " style="height: 550px;">
                 <div class="carousel-item carouselAnimeItem">
                     <div class="row">

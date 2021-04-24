@@ -1,5 +1,5 @@
 <div class="carousel carouselAnime">             
-    <?php foreach($animesPop as $anime){ ?>
+    <?php foreach($typeCarousel as $anime){ ?>
         <div class="carousel-item carouselAnimeItem">
             <div class="row">
                 <div class="col s12">

@@ -35,7 +35,7 @@
 
 
                 <div id="user" class="col s12">
-                    <?php require '../composant/listUser.php' ?>
+                    <?php require '../composant/listUser.php' ?> 
                 </div>
             </div>
 

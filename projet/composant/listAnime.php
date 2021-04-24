@@ -5,11 +5,7 @@
 </div>
 <div class='rowflex center-xs'>
     <?php 
-        $sql = 'SELECT * FROM animes';
-        $pre = $pdo->prepare($sql);
-        $pre->execute();
-        $animes = $pre->fetchAll(PDO::FETCH_ASSOC);
-
+        require '../actions/searchAllAnime.php';
         if($animes){
             foreach($animes as $anim){
                 ?>
