@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : jeu. 22 avr. 2021 à 14:05
--- Version du serveur :  8.0.24
+-- Généré le : sam. 24 avr. 2021 à 12:56
+-- Version du serveur :  8.0.23
 -- Version de PHP : 8.0.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -31,8 +31,10 @@ DROP TABLE IF EXISTS `animes`;
 CREATE TABLE IF NOT EXISTS `animes` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(50) NOT NULL,
-  `categorie` varchar(50) NOT NULL,
   `image` varchar(255) NOT NULL,
+  `description` text NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `nb_folo` int NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -40,18 +42,18 @@ CREATE TABLE IF NOT EXISTS `animes` (
 -- Déchargement des données de la table `animes`
 --
 
-INSERT INTO `animes` (`id`, `name`, `categorie`, `image`) VALUES
-(1, 'Bofuri', '', 'BOFURI.jpg'),
-(8, 'Redo of Healer', '', 'Redo of Healer.jpg'),
-(3, 'Rent a Girlfriend', '', 'Rent a Girlfriend.jpg'),
-(4, 'Tonikawa over the moon', '', 'Tonikawa over the moon.jpg'),
-(12, 'Uzaki chan want to Hang Out !', '', 'Uzaki-chan Wants to Hang Out!.jpg'),
-(13, 'Uzaki chan want to Hang Out !', '', 'Uzaki-chan Wants to Hang Out!.jpg'),
-(14, 'Uzaki chan want to Hang Out !', '', 'Uzaki-chan Wants to Hang Out!.jpg'),
-(15, 'Tonikawa over the moon', '', 'Tonikawa over the moon.jpg'),
-(16, 'Bofuri', '', 'BOFURI.jpg'),
-(17, 'Uzaki chan want to Hang Out !', '', 'Uzaki-chan Wants to Hang Out!.jpg'),
-(18, 'Uzaki chan want to Hang Out !', '', 'Uzaki-chan Wants to Hang Out!.jpg');
+INSERT INTO `animes` (`id`, `name`, `image`, `description`, `date_created`, `nb_folo`) VALUES
+(1, 'Bofuri', 'BOFURI.jpg', '', '2021-04-24 14:50:14', 0),
+(8, 'Redo of Healer', 'Redo of Healer.jpg', '', '2021-04-24 14:50:14', 2),
+(3, 'Rent a Girlfriend', 'Rent a Girlfriend.jpg', '', '2021-04-24 14:50:14', 0),
+(4, 'Tonikawa over the moon', 'Tonikawa over the moon.jpg', '', '2021-04-24 14:50:14', 0),
+(12, 'Uzaki chan want to Hang Out !', 'Uzaki-chan Wants to Hang Out!.jpg', '', '2021-04-24 14:50:14', 1),
+(13, 'Uzaki chan want to Hang Out !', 'Uzaki-chan Wants to Hang Out!.jpg', '', '2021-04-24 14:50:14', 0),
+(14, 'Uzaki chan want to Hang Out !', 'Uzaki-chan Wants to Hang Out!.jpg', '', '2021-04-24 14:50:14', 0),
+(15, 'Tonikawa over the moon', 'Tonikawa over the moon.jpg', '', '2021-04-24 14:50:14', 0),
+(16, 'Bofuri', 'BOFURI.jpg', '', '2021-04-24 14:50:14', 0),
+(17, 'Uzaki chan want to Hang Out !', 'Uzaki-chan Wants to Hang Out!.jpg', '', '2021-04-24 14:50:14', 0),
+(18, 'Uzaki chan want to Hang Out !', 'Uzaki-chan Wants to Hang Out!.jpg', '', '2021-04-24 14:50:14', 0);
 
 -- --------------------------------------------------------
 
