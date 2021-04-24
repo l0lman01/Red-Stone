@@ -38,7 +38,7 @@
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-google"></i>
             </div>
-              <h6>pas encore inscrits ?</h6><a href="">Inscrivez-vous maintenant</a>
+              <h6>déjà inscrits ?</h6><a href="../public/connexion.php">Connectez-vous maintenant</a>
 
             <div class="col s3"></div>
           </div>
