@@ -13,15 +13,3 @@
 
 - Fichier GBS3:
     - https://mega.nz/folder/Wh5mUYxI#1h692nJEsSz9xiqpl06KjA
-
-
-## Organisation du travail :
-
-- Leo :
-    - Visuel des pages
-
-- Calvin :
-    - Recherche de contenu
-    - Visuel des pages
-- Thibault :
-    - php
