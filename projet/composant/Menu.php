@@ -6,7 +6,7 @@
   <div class="navbar white">
     <ul>
       <li><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></li>
-      <li><a href="../public/index.php"><img src="../img/logo_redstone.png" alt="Red Stone"></a></li>
+      <li><a href="../public/index.php"><img src="../img/logo_redstone.png" alt="Red Stone" style="max-height: 80px;"></a></li>
       <li>
         <form>
           <div class="input-field">

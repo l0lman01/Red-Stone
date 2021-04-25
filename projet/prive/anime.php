@@ -41,7 +41,7 @@
                 <div class="col m12 mt"></div>
                 <div class="col m1"></div>
                 <div class="col m10 black cloud" >
-                    <textarea id="description" onchange="send_description()" name="description" style="height: 200px;" rows="50" class="white-text"><?php echo $anime['description'] ?></textarea>
+                    <textarea id="description" onchange="send_description()" name="description" style="height: 200px;" class="white-text"><?php echo $anime['description'] ?></textarea>
                 </div>
                 <div class="col m1"></div>
             </div>
