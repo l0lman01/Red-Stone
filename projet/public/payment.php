@@ -1,8 +1,10 @@
+<!-- Page de payment -->
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
         <?php require "../composant/head.php" ?>
-        <title>Red Stone</title>
+        <title>Red Stone | Payment</title>
     </head>
     <body>
         <?php require '../composant/Menu.php' ?>

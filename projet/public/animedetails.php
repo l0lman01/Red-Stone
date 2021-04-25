@@ -13,12 +13,11 @@
             $anime_id = $_GET['id'];
             require "../actions/searchAnime.php";
         ?>
-        <br><br>
+        </br></br>
         <div class="row">
             <div class="en-tete">
                 <div class="col m1"></div>
                 <div class="col s12 m3">
-                    <br><br>
                     <img class="couverture" src="../img/imgAnime/<?php echo $anime['image']  ?>" alt="">
                 </div>
 
