@@ -1,12 +1,12 @@
+<!-- Page anime en détail -->
+
 <!DOCTYPE html>
 <html lang="fr">
-
     <head>
         <meta charset="UTF-8">
         <?php require "../composant/head.php" ?>
-        <title>Red Stone-Animes</title>
+        <title>Red Stone | Animes</title>
     </head>
-
     <body>
         <?php 
             require "../composant/Menu.php" ;
@@ -27,30 +27,36 @@
                         <img class="logoAnime" src="../img/logo/<?php echo $anime['logo']  ?>" alt="">
                     </div>
                     <div class="col m2"></div>
+
                     <div class="col m10 glip">
                         <div class="black bubble center">
                             <li class="tab"><a class="white-text" href="#animess">INFOS</a></li>
                         </div>
                         <div class="fru"></div>
+
                         <div class="black bubble center">
                             <li class="tab"><a class="white-text" href="#animess">EPISODES</a></li>
                         </div>
                         <div class="fru"></div>
+
                         <div class="black bubble center">
                             <li class="tab"><a class="white-text" href="#animess">AVIS</a></li>
                         </div>
                     <div class="col m2"></div>
                 </div>
+
                 <div class="col m12 mt"></div>
                 <div class="col m1"></div>
+
                 <div class="col m10 black cloud">
                     <p class="white-text"><?php echo $anime['description'] ?></p>
                 </div>
                 <div class="col m1"></div>
             </div>
         </div>
-        <div class="container">
 
+        <!-- Liste d'épisodes ? -->
+        <div class="container">
 
         </div>
 
@@ -66,5 +72,4 @@
         </style>
         <?php require '../composant/footer.php' ?>
     </body>
-
 </html>

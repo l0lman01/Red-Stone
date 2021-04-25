@@ -1,6 +1,8 @@
 <?php 
     require 'config.php';
 
+    // Supprime l'anime avec ses épisodes
+
     $sql = "DELETE FROM animes WHERE animes.id = :id";
     $dataBinded=array(
         ':id' => $_GET['id'],

@@ -1,4 +1,6 @@
-<?php 
+<?php
+    //Recherche tous les scans du manga dans la BDD
+
     if(isset($scan_id)){
         $sql = "SELECT * FROM scan WHERE id=:scan_id ";
         $dataBinded=array(

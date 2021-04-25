@@ -1,4 +1,6 @@
 <?php 
+    //Recherche le manga dans la BDD
+
     if(isset($manga_id)){
         $sql = "SELECT * FROM manga WHERE id=:manga_id";
         $dataBinded=array(

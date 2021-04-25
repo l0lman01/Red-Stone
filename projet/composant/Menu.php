@@ -1,3 +1,7 @@
+<!-- Le menu et le sidenav -->
+
+
+<!-- Barre de navigation -->
 <nav>
   <div class="navbar white">
     <ul>
@@ -13,10 +17,10 @@
         </form>
       </li>
     </ul>
-
-    </div>
+  </div>
 </nav>
 
+<!-- éléments dans le sidenav -->
 
 <ul id="slide-out" class="sidenav">
   <li><a href="../public/index.php">Accueil</a></li>

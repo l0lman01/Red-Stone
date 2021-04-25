@@ -1,6 +1,8 @@
 <?php 
     require 'config.php';
 
+    // Supprime juste les scans
+
     $sql = "DELETE FROM scan WHERE scan.id = :id";
     $dataBinded=array(
         ':id' => $_GET['id'],

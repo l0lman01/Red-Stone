@@ -1,6 +1,8 @@
 <?php 
     require 'config.php';
 
+    // Supprime le manga avec ses scans
+
     $sql = "DELETE FROM manga WHERE manga.id = :id";
     $dataBinded=array(
         ':id' => $_GET['id'],

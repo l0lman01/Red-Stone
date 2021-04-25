@@ -1,4 +1,6 @@
 <?php 
+    //Recherche tous les mangas dans la BDD
+
     $sql = 'SELECT * FROM manga';
     $pre = $pdo->prepare($sql);
     $pre->execute();

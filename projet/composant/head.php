@@ -1,3 +1,5 @@
+<!-- le head pour le HTML -->
+
 <meta charset="utf-8">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="../css/materialize.min.css" >

@@ -1,4 +1,6 @@
 <?php 
+    //Recherche tous les users dans la BDD
+
     $sql = "SELECT * FROM user WHERE statut='admin'";
     $pre = $pdo->prepare($sql);
     $pre->execute();

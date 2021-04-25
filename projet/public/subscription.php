@@ -1,3 +1,5 @@
+<!-- Page d'abonnement -->
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -10,7 +12,7 @@
             if(isset($_SESSION['user'])){
         ?>
         
-            <h1 class='center titleoffre red-text text-darken-4'> Nos offres </h1>
+            <h1 class='center titleoffre red-text text-darken-4'>Nos offres</h1>
             <div class="rowflex center-xs">
                 <div class="col-xs-10 ">
                     <div class="rowflex center-xs">

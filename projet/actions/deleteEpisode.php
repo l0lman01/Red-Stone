@@ -1,6 +1,8 @@
 <?php 
     require 'config.php';
 
+    //Supprime juste l'épisode
+
     $sql = "DELETE FROM episodes WHERE episodes.id = :id";
     $dataBinded=array(
         ':id' => $_GET['id'],
