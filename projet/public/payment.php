@@ -21,7 +21,9 @@
 
                     <div class="box white payement" >
                         <h5>2. Adresse de facturation</h5>
-                        <p style="padding-left: 30px;"><?php echo $_SESSION['user']['email'] ?></p>
+                        <input name="adresse" id="adresse" placeholder="Adresse" cols="15" rows="5"></input>
+                        <input name="adresse" id="" placeholder="Ville"></input>
+                        <input name="adresse" id="" placeholder="Code Postale"></input>
                     </div>
 
                     <div class="box white payement">
@@ -34,7 +36,7 @@
 
                 <div class="cols-xs-12 cols-md-5 white" style="margin: 20px;">
                     <div class="box">
-                        <h3>fsdsdvbqbd</h3>
+                        <h3>gqjrngqkrgn</h3>
                     </div>
                 </div>
 
