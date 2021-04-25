@@ -109,13 +109,11 @@ div.carouselAnime{
 .carousel div.carouselAnimeItem{
   height: 600px;
   width: 360px;
- 
 }
 
 .subverse{
   display: flex;
   align-items: baseline;
-
 }
 
 .CI{
@@ -136,7 +134,6 @@ div.carouselAnime{
   padding-bottom: 40px;
   border-radius: 100px;
 }
-
 
 img.couverture{
   height: 550px ;
