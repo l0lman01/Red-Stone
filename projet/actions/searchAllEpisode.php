@@ -1,4 +1,6 @@
-<?php 
+<?php
+    //Recherche tous les épisodes de l'anime dans la BDD
+
     if(isset($episode_id)){
         $sql = "SELECT * FROM episodes WHERE id=:episode_id ";
         $dataBinded=array(

@@ -1,4 +1,6 @@
-<?php 
+<?php
+    //Recherche tous les animes dans la BDD
+
     $sql = 'SELECT * FROM animes';
     $pre = $pdo->prepare($sql);
     $pre->execute();

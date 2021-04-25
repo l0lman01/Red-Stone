@@ -1,4 +1,5 @@
 <?php 
+    // la déconnexion
     require 'config.php';
 
     $_SESSION['user'] = NULL;

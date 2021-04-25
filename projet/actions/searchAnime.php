@@ -1,4 +1,6 @@
-<?php 
+<?php
+    //Recherche l'animes dans la BDD
+
     if(isset($anime_id)){
         $sql = "SELECT * FROM animes WHERE id=:anime_id";
         $dataBinded=array(

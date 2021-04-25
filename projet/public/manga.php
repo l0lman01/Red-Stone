@@ -22,7 +22,7 @@
                         <h5 class="red-text text-accent-4">LES PLUS POPULAIRES...</h5> <a class="CI" href="">voir tout le catalogue</a>
                     </div>
                 </div>
-                <?php require '../composant/carouselPopAnime.php' ?>
+                <?php require '../composant/carouselAnimeManga.php' ?>
             </div>
             
             
@@ -41,7 +41,7 @@
                         <h5 class="red-text text-accent-4">LES PLUS SORTIES...</h5> <a class="CI" href="">voir tout le catalogue</a>
                     </div>
                 </div>
-                <?php require '../composant/carouselRecentAnime.php' ?>
+                <?php require '../composant/carouselAnimeManga.php' ?>
             </div>
             <div class="row">
                 <div>

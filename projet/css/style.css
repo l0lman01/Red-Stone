@@ -21,7 +21,6 @@ nav{
   background-color: #c28484;
 }
 
-
 nav a.sidenav-trigger {
    display: block ; 
 }
@@ -33,7 +32,6 @@ nav .input-field{
 .sidenav{
   background-color: rgba(255, 255, 255, 0.699);
 }
-
 
 input#search{
   position: center;
@@ -115,7 +113,6 @@ div.carouselAnime{
 }
 
 .subverse{
-  
   display: flex;
   align-items: baseline;
 
@@ -146,8 +143,6 @@ img.couverture{
   width: 374px ;
   border-radius: 30px;
 }
-
-
 
 .logoAnime{
   max-height: 180px;

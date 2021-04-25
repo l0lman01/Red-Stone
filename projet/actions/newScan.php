@@ -1,6 +1,8 @@
 <?php 
     require 'config.php';
 
+    //Insértion des scans pour les mangas
+
     $sql = "INSERT INTO scan(nb_scan,manga_id,link) VALUES (:nb_scan, :manga_id,:link)";
     $dataBinded=array(
         ':nb_scan'   => $_POST['nb_scan'],

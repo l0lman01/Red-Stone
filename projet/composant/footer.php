@@ -1,3 +1,5 @@
+<!-- Initialisation du javascript -->
+
 <footer>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/materialize.min.js"></script>
@@ -24,6 +26,5 @@
             $('select').formSelect();
             $('.tooltipped').tooltip();
         })
-
     </script>
 </footer>
