@@ -49,6 +49,11 @@ i.material-icons{
   font-size: 60px !important;
 }
 
+button{
+  border-radius: 25px ;
+  background-color: #fa5d5de7;
+}
+
 a i{
   color: #6A0000;
 }

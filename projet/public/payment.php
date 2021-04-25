@@ -28,7 +28,14 @@
 
                     <div class="box white payement">
                         <h5>1. Payement</h5>
-                        <p style="padding-left: 30px;"><?php echo $_SESSION['user']['email'] ?></p>
+                        <form action="">
+                            <input type="number" placeholder="Numéro de carte" required ></input>
+                            <input type="text" placeholder="Date d'expiration" required></input>
+                            <input type="number" placeholder="Code de carte" required></input>
+
+                        </form>
+                        </br>
+                        <button>Payer</button>
                     </div>                
                 </div>
 
@@ -36,7 +43,8 @@
 
                 <div class="cols-xs-12 cols-md-5 white" style="margin: 20px;">
                     <div class="box">
-                        <h3>gqjrngqkrgn</h3>
+                        <h3>Montant:</h3>
+                        
                     </div>
                 </div>
 
