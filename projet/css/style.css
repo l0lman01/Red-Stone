@@ -179,3 +179,10 @@ div div.glip{
 .mt{
   height: 50px;
 }
+
+.payement{
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top:15px
+}
