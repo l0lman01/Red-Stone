@@ -1,16 +1,19 @@
+<!DOCTYPE html>
 <html lang="fr">
+
     <head>
+        <meta charset="UTF-8">
         <?php require "../composant/head.php" ?>
-        <title>Red Stone | Animes</title>
+        <title>Red Stone-Animes</title>
     </head>
+
     <body>
         <?php 
-            require "../composant/Menu.php";
+            require "../composant/Menu.php" ;
             $anime_id = $_GET['id'];
-            require "../actions/searchAllEpisode.php";
             require "../actions/searchAnime.php";
         ?>
-
+        <br><br>
         <div class="row">
             <div class="en-tete">
                 <div class="col m1"></div>
@@ -40,12 +43,17 @@
                 </div>
                 <div class="col m12 mt"></div>
                 <div class="col m1"></div>
-                <div class="col m10 black cloud" >
-                    <textarea id="description" onchange="send_description()" name="description" style="height: 200px;" rows="50" class="white-text"><?php echo $anime['description'] ?></textarea>
+                <div class="col m10 black cloud">
+                    <p class="white-text"><?php echo $anime['description'] ?></p>
                 </div>
                 <div class="col m1"></div>
             </div>
         </div>
+        <div class="container">
+
+
+        </div>
+
         <style>
             .en-tete{
                 background: url("../img/background/<?php echo $anime['background']  ?>") no-repeat;
@@ -56,34 +64,7 @@
                 width: auto;
             }
         </style>
-
-
-
-        <h1><?php echo $anime['name'] ?></h1>
-        <a href="../actions/deleteAnime.php?id=<?php echo $anime['id'] ?>">Supprimer l'anime <i class="fas fa-trash-alt"></i></a>
-        <br>
-        <?php require '../composant/listEpisode.php' ?>
-
-        <hr />
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1"><i class="fas fa-plus"></i></a>
-        
-        <?php 
-            require '../composant/addEpisodeModal.php';
-            require '../composant/footer.php' 
-        ?>
-        <script src="../js/jquery.min.js"></script>
-        <script type="text/javascript">
-            function send_description(){
-                $.ajax({
-                    url : '../actions/updateDescriptionAnime.php',
-                    type : 'POST',
-                    data : {
-                        description : $('#description').val(),
-                        id : <?php echo $anime_id ?> 
-                    }
-                })
-            }
-        </script>
-
+        <?php require '../composant/footer.php' ?>
     </body>
+
 </html>

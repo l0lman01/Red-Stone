@@ -4,7 +4,7 @@
     <script type='text/javascript'>
         $(document).ready(function(){
             $('.carousel').carousel({
-            indicators: true,
+            indicators: false,
             dist: 0,
             shift: 0,
             padding: 50,

@@ -1,7 +1,7 @@
 <?php 
     require 'config.php';
 
-    $destination = "../img/imgAnime/".$_FILES['image']['name']; //dossier "upload"
+    $destination = "../img/imgManga/".$_FILES['image']['name']; //dossier "upload"
     move_uploaded_file($_FILES['image']['tmp_name'],$destination);
     
     $fichier = $_FILES['image']['name'];

@@ -59,8 +59,7 @@
                     </div>
                 </div>
             </div>
-        
-
+    
         <?php require '../composant/footer.php' ?>
     </body>
 </html>

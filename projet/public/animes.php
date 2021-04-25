@@ -33,6 +33,7 @@
                 </div>
                 <?php 
                     $typeCarousel = $animesPop;
+                    $where = 'anime';
                     require '../composant/carouselAnimeManga.php' 
                     ?>
             </div>
@@ -55,6 +56,7 @@
                 </div>
                 <?php 
                     $typeCarousel = $animesResc;
+                    $where = 'anime';
                     require '../composant/carouselAnimeManga.php' 
                 ?>
             </div>
