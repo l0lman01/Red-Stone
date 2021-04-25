@@ -36,7 +36,7 @@
                     require '../composant/carouselAnimeManga.php'; 
                 ?> 
 
-                <div class="carousel " style="height: 550px;">
+                <!-- <div class="carousel " style="height: 550px;">
 
                     <div class="carousel-item carouselAnimeItem">
                         <div class="row">
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
             </div>
         </section>
         <div class="divider"></div>
