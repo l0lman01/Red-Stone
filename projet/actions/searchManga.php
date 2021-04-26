@@ -9,7 +9,7 @@
     }else if(isset($scan[0])){
         $sql = "SELECT * FROM animes WHERE id=:manga_id";
         $dataBinded=array(
-            ':manga_id'   => $episodes[0]['manga_id'],
+            ':manga_id'   => $scan[0]['manga_id'],
         );
     };
     $pre = $pdo->prepare($sql);
