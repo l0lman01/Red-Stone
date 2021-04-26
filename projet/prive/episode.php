@@ -15,11 +15,35 @@
         <h1><?php echo $anime['name'] ?></h1>
         <h3>Episode <?php echo $episodes[0]['nb_episode'] ?></h1>
 
-        <div>
-            <?php echo $episodes[0]['link'] ?>
+        <div class="row">
+            <div class="col s6">
+                <div>
+                <?php echo $episodes[0]['link'] ?>
+                </div>
+            </div>
+
+            <div class="col s6">
+                <div>
+                    <textarea id="description" onchange="description()" name="description" style="height: 150px; width: 70%;"><?php echo $anime['description'] ?></textarea>
+                </div>
+            </div>
         </div>
         <div>
             <a href="../actions/deleteEpisode.php?id=<?php echo $episodes[0]['id'] ?>">Supprimer</a>
         </div>
+
+        <script src="../js/jquery.min.js"></script>
+        <script type="text/javascript">
+            function description(){
+                $.ajax({
+                    url : '../actions/updateDescriptionAnime.php',
+                    type : 'POST',
+                    data : {
+                        description : $('#description').val(),
+                        id : <?php echo $anime_id ?> 
+                    }
+                })
+            }
+        </script>
     </body>
 </html>

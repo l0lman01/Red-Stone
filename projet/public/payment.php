@@ -32,7 +32,6 @@
                             <input type="number" placeholder="Numéro de carte" required ></input>
                             <input type="text" placeholder="Date d'expiration" required></input>
                             <input type="number" placeholder="Code de carte" required></input>
-
                         </form>
                         </br>
                         <button>Payer</button>
