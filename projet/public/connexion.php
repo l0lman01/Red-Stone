@@ -5,7 +5,7 @@
       <?php require "../composant/head.php" ?>
       <title>Red Stone | Connexion</title>
   </head>
-  <body>
+  <body class="multianimebg">
     <?php require "../composant/Menu.php" ?>
     </br>
     </br>
