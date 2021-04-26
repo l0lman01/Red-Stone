@@ -7,10 +7,7 @@
         <title>Red Stone | Offre</title>
     </head>
     <body class="backgroundoffre">
-        <?php 
-            require '../composant/Menu.php'; 
-            if(isset($_SESSION['user'])){
-        ?>
+        <?php require '../composant/Menu.php'; ?>
         
             <h1 class='center titleoffre red-text text-darken-4'>Nos offres</h1>
             <div class="rowflex center-xs">
@@ -42,9 +39,6 @@
             </div>
 
         <?php 
-            }else{
-                header('Location:../public/index.php');
-            }
             require '../composant/footer.php'; 
         ?>
     </body>

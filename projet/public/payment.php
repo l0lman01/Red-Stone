@@ -7,12 +7,15 @@
         <title>Red Stone | Payment</title>
     </head>
     <body>
-        <?php require '../composant/Menu.php' ?>
-
+        <?php
+            require '../composant/Menu.php';
+            if(empty($_SESSION['user'])){
+                header('Location:../public/connexion.php');
+            } ;
+        ?>
         <div class="payementbg">
             <div class="rowflex" >
                 <div class="cols-xs-12 cols-md-6 " >
-
                     <div class="box white payement" >
                         <h5>1. Votre compte</h5>
                         <p style="padding-left: 30px;"><?php echo $_SESSION['user']['email'] ?></p>
@@ -30,14 +33,12 @@
                         <form action="">
                             <input type="number" placeholder="Numéro de carte" required ></input>
                             <input type="text" placeholder="Date d'expiration" required></input>
-                            <input type="number" placeholder="Code de carte" required></input>
+                            <input type="number" placeholder="Cryptogramme" required></input>
+                            <button>Payer</button>
                         </form>
                         </br>
-                        <button>Payer</button>
                     </div>                
                 </div>
-
-
 
                 <div class="cols-xs-12 cols-md-6">
                     <div class="box white payement">
