@@ -24,7 +24,8 @@
 
             <div class="col s6">
                 <div>
-                    <textarea id="description" onchange="lien()" name="description" style="height: 150px; width: 70%;"><?php echo $episodes[0]['link'] ?></textarea>
+                    <textarea id="description"  name="description" style="height: 150px; width: 70%;"><?php echo $episodes[0]['link'] ?></textarea>
+                    <button onchange="lien()">Modifier</button>
                 </div>
             </div>
         </div>
@@ -39,7 +40,7 @@
                     url : '../actions/updateLink.php',
                     type : 'POST',
                     data : {
-                        description : $('#description').val(),
+                        description : $('#link').val(),
                         id : <?php echo $anime_id ?> 
                     }
                 })

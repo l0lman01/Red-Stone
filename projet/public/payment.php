@@ -23,7 +23,7 @@
 
                     <div class="box white payement" >
                         <h5>2. Adresse de facturation</h5>
-                        <input name="adresse" id="adresse" placeholder="Adresse" cols="15" rows="5"></input>
+                        <input name="adresse" id="adresse" placeholder="Adresse" cols="50" rows="10"></input>
                         <input name="adresse" id="" placeholder="Ville"></input>
                         <input name="adresse" id="" placeholder="Code Postale"></input>
                     </div>

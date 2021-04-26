@@ -8,7 +8,7 @@
             $link = 'animedetails.php';
         }else{
             $image = 'imgManga/';
-            $link = 'manga.php';           
+            $link = 'mangadetail.php';           
         }
         
         foreach($typeCarousel as $type){ 
