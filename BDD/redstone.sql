@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : dim. 25 avr. 2021 à 03:11
--- Version du serveur :  8.0.23
+-- Généré le : lun. 26 avr. 2021 à 03:34
+-- Version du serveur :  8.0.24
 -- Version de PHP : 8.0.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `animes` (
   `background` varchar(255) NOT NULL DEFAULT 'Default.png',
   `logo` varchar(255) NOT NULL DEFAULT 'Default.png',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `animes`
@@ -49,12 +49,8 @@ INSERT INTO `animes` (`id`, `name`, `image`, `description`, `date_created`, `nb_
 (3, 'Rent a Girlfriend', 'Rent a Girlfriend.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-24 14:50:14', 0, 'Default.png', 'Default.png'),
 (4, 'Tonikawa over the moon', 'Tonikawa over the moon.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-24 14:50:14', 0, 'Default.png', 'Default.png'),
 (12, 'Uzaki chan want to Hang Out !', 'Uzaki-chan Wants to Hang Out!.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-24 14:50:14', 1, 'Default.png', 'Default.png'),
-(13, 'Uzaki chan want to Hang Out !', 'Uzaki-chan Wants to Hang Out!.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-24 14:50:14', 0, 'Default.png', 'Default.png'),
-(14, 'Uzaki chan want to Hang Out !', 'Uzaki-chan Wants to Hang Out!.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-24 14:50:14', 0, 'Default.png', 'Default.png'),
-(15, 'Tonikawa over the moon', 'Tonikawa over the moon.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-24 14:50:14', 0, 'Default.png', 'Default.png'),
-(16, 'Bofuri', 'BOFURI.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-24 14:50:14', 0, 'Default.png', 'Default.png'),
-(17, 'Uzaki chan want to Hang Out !', 'Uzaki-chan Wants to Hang Out!.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-24 14:50:14', 0, 'Default.png', 'Default.png'),
-(18, 'Uzaki chan want to Hang Out !', 'Uzaki-chan Wants to Hang Out!.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-24 14:50:14', 0, 'Default.png', 'Default.png');
+(19, 'Love, Chunibyo and other delusion', 'chunibyo.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-26 05:04:56', 0, 'Default.png', 'Default.png'),
+(16, 'Bofuri', 'BOFURI.jpg', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', '2021-04-24 14:50:14', 0, 'Default.png', 'Default.png');
 
 -- --------------------------------------------------------
 
@@ -97,17 +93,20 @@ CREATE TABLE IF NOT EXISTS `episodes` (
   `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `saison` int NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `episodes`
 --
 
 INSERT INTO `episodes` (`id`, `nb_episode`, `anime_id`, `link`, `date`, `saison`) VALUES
-(3, 1, 1, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/fuokgko4y71d\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-20 12:48:11', 1),
-(4, 2, 1, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/cro4k7itswj3\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-21 13:28:46', 1),
-(5, 1, 1, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/c7py1irnubpn\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-21 13:29:22', 1),
-(6, 1, 8, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/ap89ukecucpo\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-25 04:23:42', 1);
+(12, 3, 4, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/z4w7w4mipz2x\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-20 12:48:11', 1),
+(11, 2, 4, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/7eoxgyfkbtjd\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-20 12:48:11', 1),
+(10, 1, 4, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/29ptsl2fsqax\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-20 12:48:11', 1),
+(13, 1, 12, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/0muvff3fqugg\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-20 12:48:11', 1),
+(14, 2, 12, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/39c6254wk1i9\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-20 12:48:11', 1),
+(15, 1, 3, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/a47n0290a2xl\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-20 12:48:11', 1),
+(16, 2, 3, '<iframe width=\"640\" height=\"360\" src=\"https://uptostream.com/iframe/th6281odolpq\" scrolling=\"no\" frameborder=\"0\" allowfullscreen webkitallowfullscreen></iframe>', '2021-04-20 12:48:11', 1);
 
 -- --------------------------------------------------------
 
@@ -126,14 +125,16 @@ CREATE TABLE IF NOT EXISTS `manga` (
   `background` varchar(255) NOT NULL DEFAULT 'Default.png',
   `logo` varchar(255) NOT NULL DEFAULT 'Default.png',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `manga`
 --
 
 INSERT INTO `manga` (`id`, `name`, `description`, `image`, `date_created`, `nb_folo`, `background`, `logo`) VALUES
-(2, 'demon slayer', '', 'demon_slayer_scan.jpg', '2021-04-25 03:06:59', 0, 'Default.png', 'Default.png');
+(2, 'demon slayer', 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cum, reprehenderit adipisci quod quidem odit voluptas illum perferendis eaque magni consectetur itaque quas aut laborum officia! Aliquam molestias quod aspernatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas, autem ut, vel provident, vitae praesentium numquam voluptate alias dolore fugit debitis libero cumque itaque veniam doloremque similique qui dolores?', 'demon_slayer_scan.jpg', '2021-04-25 03:06:59', 0, 'Default.png', 'Default.png'),
+(3, 'Promised Neverland', '', 'neverland.jpg', '2021-04-26 05:29:03', 0, 'Default.png', 'Default.png'),
+(4, 'Kaguya-sama: Love is war', '', 'kaguya.jpg', '2021-04-26 05:31:41', 0, 'Default.png', 'Default.png');
 
 -- --------------------------------------------------------
 
@@ -149,7 +150,19 @@ CREATE TABLE IF NOT EXISTS `scan` (
   `manga_id` int NOT NULL,
   `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Déchargement des données de la table `scan`
+--
+
+INSERT INTO `scan` (`id`, `nb_scan`, `link`, `manga_id`, `date`) VALUES
+(1, 206, 'https://scansmangas.xyz/scan-kimetsu-no-yaiba-206/', 2, '2021-04-20 12:48:11'),
+(2, 205, 'https://scansmangas.xyz/scan-kimetsu-no-yaiba-205/', 2, '2021-04-20 12:48:11'),
+(3, 183, 'https://scansmangas.xyz/scan-the-promised-neverland-183/', 3, '2021-04-20 12:48:11'),
+(4, 182, 'https://scansmangas.xyz/scan-the-promised-neverland-182/', 3, '2021-04-20 12:48:11'),
+(5, 225, 'https://scansmangas.xyz/scan-kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen-225/', 4, '2021-04-20 12:48:11'),
+(6, 224, 'https://scansmangas.xyz/scan-kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen-224/', 4, '2021-04-20 12:48:11');
 
 -- --------------------------------------------------------
 
