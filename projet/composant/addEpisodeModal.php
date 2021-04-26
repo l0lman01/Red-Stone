@@ -1,6 +1,6 @@
 <!-- Créer un modal pour rajouter un épisode -->
 
-<div id="modal1" class="modal">
+<div id="episode" class="modal">
     <div class="modal-content">
         <form action="../actions/newEpisode.php" method="post">
             <input type="hidden" id='anime_id' name="anime_id" value='<?php echo $anime_id ?>'>

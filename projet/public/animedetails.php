@@ -10,8 +10,17 @@
     <body>
         <?php 
             require "../composant/Menu.php" ;
+
+            if(empty($_SESSION['user'])){
+                header('Location:../public/connexion.php');
+            }else if($_SESSION['user']['statut']=='host'){
+                header('Location:../public/subscription.php');
+            }
+
             $anime_id = $_GET['id'];
             require "../actions/searchAnime.php";
+            require "../actions/searchAllEpisode.php";
+
         ?>
         </br></br>
         <div class="row">
@@ -56,7 +65,7 @@
 
         <!-- Liste d'épisodes ? -->
         <div class="container">
-
+            <?php require '../composant/listEpisode.php' ?>
         </div>
 
         <style>

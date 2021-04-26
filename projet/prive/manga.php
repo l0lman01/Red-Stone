@@ -80,7 +80,6 @@
             require '../composant/footer.php' 
         ?>
         <!-- Appel ajax -->
-        <script src="../js/jquery.min.js"></script>
         <script type="text/javascript">
             function send_description(){
                 $.ajax({

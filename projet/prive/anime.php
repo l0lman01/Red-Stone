@@ -66,21 +66,26 @@
             }
         </style>
 
-        <h1><?php echo $anime['name'] ?></h1>
+        <form action="#">
+            <input type="file" name="background">
+            <input type="hidden" name="id" value="<?php echo $anime_id ?>">
+            <button type="submit">valider</button>
+        </form>
+
         <a href="../actions/deleteAnime.php?id=<?php echo $anime['id'] ?>">Supprimer l'anime <i class="fas fa-trash-alt"></i></a>
         <br>
+        
         <?php require '../composant/listEpisode.php' ?>
 
         <hr/>
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1"><i class="fas fa-plus"></i></a>
+        <a class="waves-effect waves-light btn modal-trigger" href="#episode"><i class="fas fa-plus"></i></a>
         
+
+        <!-- Appel ajax -->
         <?php 
             require '../composant/addEpisodeModal.php';
             require '../composant/footer.php' 
         ?>
-
-        <!-- Appel ajax -->
-        <script src="../js/jquery.min.js"></script>
         <script type="text/javascript">
             function send_description(){
                 $.ajax({
@@ -93,5 +98,6 @@
                 })
             }
         </script>
+
     </body>
 </html>

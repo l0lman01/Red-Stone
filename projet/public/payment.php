@@ -11,6 +11,8 @@
             require '../composant/Menu.php';
             if(empty($_SESSION['user'])){
                 header('Location:../public/connexion.php');
+            }else if($_SESSION['user']['statut'] != 'host'){
+                ?><script>alert()</script><?php
             } ;
         ?>
         <div class="payementbg">
@@ -23,18 +25,18 @@
 
                     <div class="box white payement" >
                         <h5>2. Adresse de facturation</h5>
-                        <input name="adresse" id="adresse" placeholder="Adresse" cols="50" rows="10"></input>
+                        <input name="adresse" id="adresse" placeholder="Adresse" cols="15" rows="5"></input>
                         <input name="adresse" id="" placeholder="Ville"></input>
                         <input name="adresse" id="" placeholder="Code Postale"></input>
                     </div>
 
                     <div class="box white payement">
                         <h5>1. Payement</h5>
-                        <form action="">
+                        <form action="../actions/updateStatutUser.php">
                             <input type="number" placeholder="Numéro de carte" required ></input>
                             <input type="text" placeholder="Date d'expiration" required></input>
                             <input type="number" placeholder="Cryptogramme" required></input>
-                            <button>Payer</button>
+                            <button type='submit' >Payer</button>
                         </form>
                         </br>
                     </div>                
@@ -62,7 +64,6 @@
                                 $total = 'xx.xx';
                             }
                         ?>
-
                         <div class="rowflex">
                             <h6 class="col-xs-8">Abonnement VIP <?php echo $offre ?> :</h6>
                             <h6 class="col-xs-4"><?php echo $prix ?>€</h6>
@@ -87,7 +88,12 @@
 
             </div>
         </div>
-
         <?php require '../composant/footer.php' ?>
+        <script type="text/javascript">
+            function alert(){
+                M.toast({html: 'Vous êtes déjà abonner !!! '})
+            }
+
+        </script>
     </body>
 </html>

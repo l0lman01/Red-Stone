@@ -20,11 +20,12 @@
             
             //Insértion du user dans la BDD
 
-            $sql = "INSERT INTO user(email,password,creation_account) VALUES (:email, :password, :creation_account)";
+            $sql = "INSERT INTO user(email,password,pseudo,creation_account) VALUES (:email, :password, :pseudo, :creation_account)";
             $dataBinded=array(
                 ':email'   => $_POST['email'],
                 ':password'=> $passwordhash,
                 ':creation_account'=> $date,
+                ':pseudo'=>$_POST['username'],
             );
             $pre = $pdo->prepare($sql);
             $pre->execute($dataBinded);
@@ -33,6 +34,6 @@
         }else{
         }
     }else{
-        header('Location: ../public/inscription.php');
+        header('Location: ../public/subscription.php');
     }
 ?>

@@ -1,5 +1,3 @@
-<!-- Liste d'animes sur le panel admin -->
-
 </br>
 <a class=" waves-effect waves-light btn modal-trigger " href="#modal1">Ajouter un animé</a>
 <div class='row'>
@@ -8,17 +6,16 @@
 <div class='rowflex center-xs'>
     <?php 
         require '../actions/searchAllAnime.php';
-
         if($animes){
             foreach($animes as $anim){
-    ?>
+                ?>
                 <div class='col-xs-12 col-md-4 col-lg-3' style="margin-bottom: 10px;">
                     <a href='anime.php?id=<?php echo $anim['id'] ?>' > 
                             <img src="../img/imgAnime/<?php echo $anim['image'] ?>" style="max-width:60%">
                             <h6><?php echo $anim['name'] ?></h6>                   
                     </a> 
                 </div>
-    <?php
+                <?php
             }
         }else{
             echo "Pas d'animes enregistrer";

@@ -24,8 +24,7 @@
 
             <div class="col s6">
                 <div>
-                    <textarea id="description"  name="description" style="height: 150px; width: 70%;"><?php echo $episodes[0]['link'] ?></textarea>
-                    <button onchange="lien()">Modifier</button>
+                    <textarea onchange="lien()" id="link"  name="link" style="height: 150px; width: 70%;"><?php echo $episodes[0]['link'] ?></textarea>
                 </div>
             </div>
         </div>
@@ -33,18 +32,19 @@
             <a href="../actions/deleteEpisode.php?id=<?php echo $episodes[0]['id'] ?>">Supprimer</a>
         </div>
 
-        <script src="../js/jquery.min.js"></script>
+        <?php require '../composant/footer.php' ?>
         <script type="text/javascript">
             function lien(){
                 $.ajax({
                     url : '../actions/updateLink.php',
                     type : 'POST',
                     data : {
-                        description : $('#link').val(),
-                        id : <?php echo $anime_id ?> 
+                        link : $('#link').val(),
+                        id : <?php echo $episode_id ?> 
                     }
                 })
             }
         </script>
+
     </body>
 </html>
