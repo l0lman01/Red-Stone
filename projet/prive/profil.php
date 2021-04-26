@@ -17,10 +17,14 @@
           </div>
 
           <span class="card-title"><?php echo $_SESSION['user']['email'] ?></span>
+          <br>
+          <span class="card-title"><?php echo $_SESSION['user']['pseudo'] ?></span>
 
           <div class="card-content">
             <p>Inscrit depuis le <?php echo $_SESSION['user']['creation_account'] ?></p>
           </div>
+
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modifier</a>
 
         </div>
       </div>
@@ -44,6 +48,8 @@
         </div>
       </div>
     </div>
+    <?php require '../composant/profilModal.php' ?> 
     <?php require '../composant/footer.php' ?>
+
   </body>
 </html>

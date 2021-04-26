@@ -15,5 +15,15 @@
     - https://mega.nz/folder/Wh5mUYxI#1h692nJEsSz9xiqpl06KjA
 
 ## Actions à réaliser:
-- Créer une nouvelle BDD dans phpMyAdmin puis importer le fichier .SQL dans le dossier "BDD"
-- 
+- Créer une nouvelle BDD 'redstone' dans phpMyAdmin puis importer le fichier redstone.sql dans le dossier "BDD"
+
+## Compte test
+- Admin : 
+    - test@test.test
+    - test 
+- Client :
+    - wow@wow.wow
+    - wow
+- Host :
+    - lol@lol.lol
+    - lol
