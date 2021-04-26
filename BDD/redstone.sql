@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : lun. 26 avr. 2021 à 03:34
+-- Généré le : lun. 26 avr. 2021 à 14:17
 -- Version du serveur :  8.0.24
 -- Version de PHP : 8.0.3
 
@@ -174,6 +174,7 @@ DROP TABLE IF EXISTS `user`;
 CREATE TABLE IF NOT EXISTS `user` (
   `id` int NOT NULL AUTO_INCREMENT,
   `email` varchar(50) NOT NULL,
+  `pseudo` varchar(50) NOT NULL,
   `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `statut` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT 'host',
   `creation_account` date NOT NULL,
@@ -186,10 +187,10 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- Déchargement des données de la table `user`
 --
 
-INSERT INTO `user` (`id`, `email`, `password`, `statut`, `creation_account`, `profil_picture`, `end_subscription`) VALUES
-(1, 'test@test.test', '$2y$10$hM86G9Isz7copJ7jZqA/EemYzv9MZKNsCCVTmx6Tfnex7UEG3bCBG', 'admin', '0000-00-00', 'Default.png', NULL),
-(3, 'wow@wow.wow', '$2y$10$1OvH6k1LLIJU/Fs94Pbv/eTg6XOVNLArZm3ZrhghZtVY0y3L2feva', 'client', '0000-00-00', 'Default.png', NULL),
-(4, 'lol@lol.lol', '$2y$10$.K5Hf1Rr2W15OGnbNWO.Vuq6HzMIl/5Wh5lHiIzu5BDSWKC8ZYe1S', 'host', '0000-00-00', 'Default.png', NULL);
+INSERT INTO `user` (`id`, `email`, `pseudo`, `password`, `statut`, `creation_account`, `profil_picture`, `end_subscription`) VALUES
+(1, 'test@test.test', 'bonsoir', '$2y$10$hM86G9Isz7copJ7jZqA/EemYzv9MZKNsCCVTmx6Tfnex7UEG3bCBG', 'admin', '0000-00-00', 'Kazuma_PP.jpg', NULL),
+(3, 'wow@wow.wow', '', '$2y$10$1OvH6k1LLIJU/Fs94Pbv/eTg6XOVNLArZm3ZrhghZtVY0y3L2feva', 'client', '0000-00-00', 'Default.png', NULL),
+(4, 'lol@lol.lol', '', '$2y$10$.K5Hf1Rr2W15OGnbNWO.Vuq6HzMIl/5Wh5lHiIzu5BDSWKC8ZYe1S', 'host', '0000-00-00', 'Default.png', NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
