@@ -24,7 +24,7 @@
 
             <div class="col s6">
                 <div>
-                    <textarea id="description" onchange="description()" name="description" style="height: 150px; width: 70%;"><?php echo $anime['description'] ?></textarea>
+                    <textarea id="description" onchange="lien()" name="description" style="height: 150px; width: 70%;"><?php echo $episodes[0]['link'] ?></textarea>
                 </div>
             </div>
         </div>
@@ -34,9 +34,9 @@
 
         <script src="../js/jquery.min.js"></script>
         <script type="text/javascript">
-            function description(){
+            function lien(){
                 $.ajax({
-                    url : '../actions/updateDescriptionAnime.php',
+                    url : '../actions/updateLink.php',
                     type : 'POST',
                     data : {
                         description : $('#description').val(),
